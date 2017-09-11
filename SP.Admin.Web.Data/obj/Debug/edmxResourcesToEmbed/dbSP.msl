@@ -1,0 +1,2765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SIRESPAModelStoreContainer" CdmEntityContainer="SIRESPAEntities">
+    <EntitySetMapping Name="AD_PAR_APLINET_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.AD_PAR_APLINET_DETALLE">
+        <MappingFragment StoreEntitySet="AD_PAR_APLINET_DETALLE">
+          <ScalarProperty Name="FPA_KEYIDE" ColumnName="FPA_KEYIDE" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="PAP_KEYPAP" ColumnName="PAP_KEYPAP" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="PAD_MESINT" ColumnName="PAD_MESINT" />
+          <ScalarProperty Name="PAD_DESPRO" ColumnName="PAD_DESPRO" />
+          <ScalarProperty Name="PAD_FECALT" ColumnName="PAD_FECALT" />
+          <ScalarProperty Name="PAD_FEULAC" ColumnName="PAD_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AM_ANIOS_MESES">
+      <EntityTypeMapping TypeName="SIRESPAModel.AM_ANIOS_MESES">
+        <MappingFragment StoreEntitySet="AM_ANIOS_MESES">
+          <ScalarProperty Name="ANM_KEYIDE" ColumnName="ANM_KEYIDE" />
+          <ScalarProperty Name="ANI_KEYANI" ColumnName="ANI_KEYANI" />
+          <ScalarProperty Name="MES_KEYMES" ColumnName="MES_KEYMES" />
+          <ScalarProperty Name="ANM_FECINI" ColumnName="ANM_FECINI" />
+          <ScalarProperty Name="ANM_FECFIN" ColumnName="ANM_FECFIN" />
+          <ScalarProperty Name="ANM_FEULAC" ColumnName="ANM_FEULAC" />
+          <ScalarProperty Name="ANM_FECALT" ColumnName="ANM_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AP_APARTADOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.AP_APARTADOS">
+        <MappingFragment StoreEntitySet="AP_APARTADOS">
+          <ScalarProperty Name="APA_KEYAPA" ColumnName="APA_KEYAPA" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="CRE_KEYCRE" ColumnName="CRE_KEYCRE" />
+          <ScalarProperty Name="CLI_KEYCLI" ColumnName="CLI_KEYCLI" />
+          <ScalarProperty Name="APA_SALAPA" ColumnName="APA_SALAPA" />
+          <ScalarProperty Name="APA_COMENT" ColumnName="APA_COMENT" />
+          <ScalarProperty Name="APA_FECALT" ColumnName="APA_FECALT" />
+          <ScalarProperty Name="APA_FEULAC" ColumnName="APA_FEULAC" />
+          <ScalarProperty Name="APA_FECVEN" ColumnName="APA_FECVEN" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="APA_PORCEN" ColumnName="APA_PORCEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AP_APARTADOS_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.AP_APARTADOS_DETALLE">
+        <MappingFragment StoreEntitySet="AP_APARTADOS_DETALLE">
+          <ScalarProperty Name="APD_KEYIDE" ColumnName="APD_KEYIDE" />
+          <ScalarProperty Name="APA_KEYAPA" ColumnName="APA_KEYAPA" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="APD_CANTID" ColumnName="APD_CANTID" />
+          <ScalarProperty Name="APD_PRECIO" ColumnName="APD_PRECIO" />
+          <ScalarProperty Name="APD_COSAPA" ColumnName="APD_COSAPA" />
+          <ScalarProperty Name="APD_FECALT" ColumnName="APD_FECALT" />
+          <ScalarProperty Name="APD_FEULAC" ColumnName="APD_FEULAC" />
+          <ScalarProperty Name="USR_KEYVTA" ColumnName="USR_KEYVTA" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AP_APARTADOS_DETALLE_HISTORICO">
+      <EntityTypeMapping TypeName="SIRESPAModel.AP_APARTADOS_DETALLE_HISTORICO">
+        <MappingFragment StoreEntitySet="AP_APARTADOS_DETALLE_HISTORICO">
+          <ScalarProperty Name="APD_KEYAPD" ColumnName="APD_KEYAPD" />
+          <ScalarProperty Name="APA_KEYAPA" ColumnName="APA_KEYAPA" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="APD_CANTID" ColumnName="APD_CANTID" />
+          <ScalarProperty Name="APD_PRECIO" ColumnName="APD_PRECIO" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="APD_COSAPA" ColumnName="APD_COSAPA" />
+          <ScalarProperty Name="APD_FEULAC" ColumnName="APD_FEULAC" />
+          <ScalarProperty Name="APD_FECALT" ColumnName="APD_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AP_APARTADOS_HISTORICO">
+      <EntityTypeMapping TypeName="SIRESPAModel.AP_APARTADOS_HISTORICO">
+        <MappingFragment StoreEntitySet="AP_APARTADOS_HISTORICO">
+          <ScalarProperty Name="APA_KEYIDE" ColumnName="APA_KEYIDE" />
+          <ScalarProperty Name="APA_KEYAPA" ColumnName="APA_KEYAPA" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="APA_NOTIKE" ColumnName="APA_NOTIKE" />
+          <ScalarProperty Name="CLI_KEYCLI" ColumnName="CLI_KEYCLI" />
+          <ScalarProperty Name="APA_SALAPA" ColumnName="APA_SALAPA" />
+          <ScalarProperty Name="APA_COMENT" ColumnName="APA_COMENT" />
+          <ScalarProperty Name="APA_FEULAC" ColumnName="APA_FEULAC" />
+          <ScalarProperty Name="APA_FECALT" ColumnName="APA_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AS_ASISTENCIAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.AS_ASISTENCIAS">
+        <MappingFragment StoreEntitySet="AS_ASISTENCIAS">
+          <ScalarProperty Name="ASI_KEYASI" ColumnName="ASI_KEYASI" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="USR_KEYASI" ColumnName="USR_KEYASI" />
+          <ScalarProperty Name="ASI_FECALT" ColumnName="ASI_FECALT" />
+          <ScalarProperty Name="ASI_FEULAC" ColumnName="ASI_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BC_BIT_CAMBIOS_PRECIOS_TIENDA">
+      <EntityTypeMapping TypeName="SIRESPAModel.BC_BIT_CAMBIOS_PRECIOS_TIENDA">
+        <MappingFragment StoreEntitySet="BC_BIT_CAMBIOS_PRECIOS_TIENDA">
+          <ScalarProperty Name="BPC_KEYIDE" ColumnName="BPC_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="USR_KEYVTA" ColumnName="USR_KEYVTA" />
+          <ScalarProperty Name="USR_KEYAUT" ColumnName="USR_KEYAUT" />
+          <ScalarProperty Name="CRE_KEYCRE" ColumnName="CRE_KEYCRE" />
+          <ScalarProperty Name="BCP_CANTID" ColumnName="BCP_CANTID" />
+          <ScalarProperty Name="BCP_PREANT" ColumnName="BCP_PREANT" />
+          <ScalarProperty Name="BCP_PREACT" ColumnName="BCP_PREACT" />
+          <ScalarProperty Name="BCP_CAUSAS" ColumnName="BCP_CAUSAS" />
+          <ScalarProperty Name="BCP_FECALT" ColumnName="BCP_FECALT" />
+          <ScalarProperty Name="BCP_FEULAC" ColumnName="BCP_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BC_BITACORA_CAMBIOS_PRECIOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.BC_BITACORA_CAMBIOS_PRECIOS">
+        <MappingFragment StoreEntitySet="BC_BITACORA_CAMBIOS_PRECIOS">
+          <ScalarProperty Name="BCP_KEYBCP" ColumnName="BCP_KEYBCP" />
+          <ScalarProperty Name="LIP_KEYLIP" ColumnName="LIP_KEYLIP" />
+          <ScalarProperty Name="LIP_FACANT" ColumnName="LIP_FACANT" />
+          <ScalarProperty Name="LIP_FACACT" ColumnName="LIP_FACACT" />
+          <ScalarProperty Name="LIP_INCANT" ColumnName="LIP_INCANT" />
+          <ScalarProperty Name="LIP_INCACT" ColumnName="LIP_INCACT" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="BCP_COSANT" ColumnName="BCP_COSANT" />
+          <ScalarProperty Name="BCP_COSACT" ColumnName="BCP_COSACT" />
+          <ScalarProperty Name="BCP_PREANT" ColumnName="BCP_PREANT" />
+          <ScalarProperty Name="BCP_PREACT" ColumnName="BCP_PREACT" />
+          <ScalarProperty Name="BCP_FECREG" ColumnName="BCP_FECREG" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BC_BITACORA_COSTO">
+      <EntityTypeMapping TypeName="SIRESPAModel.BC_BITACORA_COSTO">
+        <MappingFragment StoreEntitySet="BC_BITACORA_COSTO">
+          <ScalarProperty Name="BCO_KEYBCO" ColumnName="BCO_KEYBCO" />
+          <ScalarProperty Name="OCO_KEYOCO" ColumnName="OCO_KEYOCO" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="BIC_COSANT" ColumnName="BIC_COSANT" />
+          <ScalarProperty Name="BIC_COSNUE" ColumnName="BIC_COSNUE" />
+          <ScalarProperty Name="BIC_COSPRO" ColumnName="BIC_COSPRO" />
+          <ScalarProperty Name="BIC_CANORD" ColumnName="BIC_CANORD" />
+          <ScalarProperty Name="BIC_CANINV" ColumnName="BIC_CANINV" />
+          <ScalarProperty Name="BIC_FECMOV" ColumnName="BIC_FECMOV" />
+          <ScalarProperty Name="BIC_FEULAC" ColumnName="BIC_FEULAC" />
+          <ScalarProperty Name="BIC_FECALT" ColumnName="BIC_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BI_BITACORA_CAM_VENDEDOR">
+      <EntityTypeMapping TypeName="SIRESPAModel.BI_BITACORA_CAM_VENDEDOR">
+        <MappingFragment StoreEntitySet="BI_BITACORA_CAM_VENDEDOR">
+          <ScalarProperty Name="BIV_KEYIDE" ColumnName="BIV_KEYIDE" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="CRE_KEYCRE" ColumnName="CRE_KEYCRE" />
+          <ScalarProperty Name="USR_KEYNVO" ColumnName="USR_KEYNVO" />
+          <ScalarProperty Name="USR_KEYAUT" ColumnName="USR_KEYAUT" />
+          <ScalarProperty Name="USR_KEYANT" ColumnName="USR_KEYANT" />
+          <ScalarProperty Name="BIV_FECALT" ColumnName="BIV_FECALT" />
+          <ScalarProperty Name="BIV_FEULAC" ColumnName="BIV_FEULAC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BP_BITACORA_POLIZAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.BP_BITACORA_POLIZAS">
+        <MappingFragment StoreEntitySet="BP_BITACORA_POLIZAS">
+          <ScalarProperty Name="BIP_KEYIDE" ColumnName="BIP_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="BIP_FECVEN" ColumnName="BIP_FECVEN" />
+          <ScalarProperty Name="BIP_FECGEN" ColumnName="BIP_FECGEN" />
+          <ScalarProperty Name="BIP_SAPFOL" ColumnName="BIP_SAPFOL" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BP_BITACORA_PRECIO">
+      <EntityTypeMapping TypeName="SIRESPAModel.BP_BITACORA_PRECIO">
+        <MappingFragment StoreEntitySet="BP_BITACORA_PRECIO">
+          <ScalarProperty Name="BPR_KEYBPR" ColumnName="BPR_KEYBPR" />
+          <ScalarProperty Name="LIP_KEYLIP" ColumnName="LIP_KEYLIP" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="BPR_COSANT" ColumnName="BPR_COSANT" />
+          <ScalarProperty Name="BPR_COSACT" ColumnName="BPR_COSACT" />
+          <ScalarProperty Name="BPR_PREANT" ColumnName="BPR_PREANT" />
+          <ScalarProperty Name="BPR_PREACT" ColumnName="BPR_PREACT" />
+          <ScalarProperty Name="BPR_FECREG" ColumnName="BPR_FECREG" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_ANIOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_ANIOS">
+        <MappingFragment StoreEntitySet="CA_ANIOS">
+          <ScalarProperty Name="ANI_KEYIDE" ColumnName="ANI_KEYIDE" />
+          <ScalarProperty Name="ANI_KEYANI" ColumnName="ANI_KEYANI" />
+          <ScalarProperty Name="ANI_FEULAC" ColumnName="ANI_FEULAC" />
+          <ScalarProperty Name="ANI_FECALT" ColumnName="ANI_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_BANCOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_BANCOS">
+        <MappingFragment StoreEntitySet="CA_BANCOS">
+          <ScalarProperty Name="BAN_KEYBAN" ColumnName="BAN_KEYBAN" />
+          <ScalarProperty Name="CCO_KEYCCO" ColumnName="CCO_KEYCCO" />
+          <ScalarProperty Name="BAN_CVEBAN" ColumnName="BAN_CVEBAN" />
+          <ScalarProperty Name="BAN_DESCRI" ColumnName="BAN_DESCRI" />
+          <ScalarProperty Name="BAN_FEULAC" ColumnName="BAN_FEULAC" />
+          <ScalarProperty Name="BAN_FECALT" ColumnName="BAN_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CAJAS_REGISTRADORAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CAJAS_REGISTRADORAS">
+        <MappingFragment StoreEntitySet="CA_CAJAS_REGISTRADORAS">
+          <ScalarProperty Name="CRE_KEYCRE" ColumnName="CRE_KEYCRE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="CRE_DESCRI" ColumnName="CRE_DESCRI" />
+          <ScalarProperty Name="CRE_FEULAC" ColumnName="CRE_FEULAC" />
+          <ScalarProperty Name="CRE_FECALT" ColumnName="CRE_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CATALOGOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CATALOGOS">
+        <MappingFragment StoreEntitySet="CA_CATALOGOS">
+          <ScalarProperty Name="CTG_KEYCTG" ColumnName="CTG_KEYCTG" />
+          <ScalarProperty Name="CTG_CVECTG" ColumnName="CTG_CVECTG" />
+          <ScalarProperty Name="CTG_DESCRI" ColumnName="CTG_DESCRI" />
+          <ScalarProperty Name="CTG_FEULAC" ColumnName="CTG_FEULAC" />
+          <ScalarProperty Name="CTG_FECALT" ColumnName="CTG_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CATALOGOS_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CATALOGOS_DETALLE">
+        <MappingFragment StoreEntitySet="CA_CATALOGOS_DETALLE">
+          <ScalarProperty Name="CTD_KEYCTD" ColumnName="CTD_KEYCTD" />
+          <ScalarProperty Name="CTG_KEYCTG" ColumnName="CTG_KEYCTG" />
+          <ScalarProperty Name="CTD_VALCTD" ColumnName="CTD_VALCTD" />
+          <ScalarProperty Name="CTD_FEULAC" ColumnName="CTD_FEULAC" />
+          <ScalarProperty Name="CTD_FECALT" ColumnName="CTD_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CAUSAS_DEVOLUCIONES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CAUSAS_DEVOLUCIONES">
+        <MappingFragment StoreEntitySet="CA_CAUSAS_DEVOLUCIONES">
+          <ScalarProperty Name="CDV_KEYCDV" ColumnName="CDV_KEYCDV" />
+          <ScalarProperty Name="CDV_DESCRI" ColumnName="CDV_DESCRI" />
+          <ScalarProperty Name="CDV_DIAVIG" ColumnName="CDV_DIAVIG" />
+          <ScalarProperty Name="CDV_FEULAC" ColumnName="CDV_FEULAC" />
+          <ScalarProperty Name="CDV_FECALT" ColumnName="CDV_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="CDV_DEVPRV" ColumnName="CDV_DEVPRV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CAUSAS_NEGADOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CAUSAS_NEGADOS">
+        <MappingFragment StoreEntitySet="CA_CAUSAS_NEGADOS">
+          <ScalarProperty Name="CAN_KEYCAN" ColumnName="CAN_KEYCAN" />
+          <ScalarProperty Name="CAN_DESCRI" ColumnName="CAN_DESCRI" />
+          <ScalarProperty Name="CAN_FEULAC" ColumnName="CAN_FEULAC" />
+          <ScalarProperty Name="CAN_FECALT" ColumnName="CAN_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CENTROS_COSTOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CENTROS_COSTOS">
+        <MappingFragment StoreEntitySet="CA_CENTROS_COSTOS">
+          <ScalarProperty Name="CEC_KEYCEC" ColumnName="CEC_KEYCEC" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="CEC_DESCRI" ColumnName="CEC_DESCRI" />
+          <ScalarProperty Name="CEN_FEULAC" ColumnName="CEN_FEULAC" />
+          <ScalarProperty Name="CEC_FECALT" ColumnName="CEC_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CIUDADES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CIUDADES">
+        <MappingFragment StoreEntitySet="CA_CIUDADES">
+          <ScalarProperty Name="CIU_KEYCIU" ColumnName="CIU_KEYCIU" />
+          <ScalarProperty Name="EDO_KEYEDO" ColumnName="EDO_KEYEDO" />
+          <ScalarProperty Name="CIU_NOMBRE" ColumnName="CIU_NOMBRE" />
+          <ScalarProperty Name="CIU_FEULAC" ColumnName="CIU_FEULAC" />
+          <ScalarProperty Name="CIU_FECALT" ColumnName="CIU_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CLIENTES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CLIENTES">
+        <MappingFragment StoreEntitySet="CA_CLIENTES">
+          <ScalarProperty Name="CLI_KEYCLI" ColumnName="CLI_KEYCLI" />
+          <ScalarProperty Name="CLI_RFCCLI" ColumnName="CLI_RFCCLI" />
+          <ScalarProperty Name="CLI_NOMBRE" ColumnName="CLI_NOMBRE" />
+          <ScalarProperty Name="CLI_APEPAT" ColumnName="CLI_APEPAT" />
+          <ScalarProperty Name="CLI_APEMAT" ColumnName="CLI_APEMAT" />
+          <ScalarProperty Name="CLI_DOMICI" ColumnName="CLI_DOMICI" />
+          <ScalarProperty Name="CLI_NUMEXT" ColumnName="CLI_NUMEXT" />
+          <ScalarProperty Name="CLI_NUMINT" ColumnName="CLI_NUMINT" />
+          <ScalarProperty Name="CLI_COLONI" ColumnName="CLI_COLONI" />
+          <ScalarProperty Name="CLI_CODPOS" ColumnName="CLI_CODPOS" />
+          <ScalarProperty Name="CIU_KEYCIU" ColumnName="CIU_KEYCIU" />
+          <ScalarProperty Name="CLI_NUMIDE" ColumnName="CLI_NUMIDE" />
+          <ScalarProperty Name="CLI_FECALT" ColumnName="CLI_FECALT" />
+          <ScalarProperty Name="CLI_FEULAC" ColumnName="CLI_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CLIENTES_FACTURACION">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CLIENTES_FACTURACION">
+        <MappingFragment StoreEntitySet="CA_CLIENTES_FACTURACION">
+          <ScalarProperty Name="CLI_KEYFAC" ColumnName="CLI_KEYFAC" />
+          <ScalarProperty Name="CLI_TIPPER" ColumnName="CLI_TIPPER" />
+          <ScalarProperty Name="CLI_RFCCLI" ColumnName="CLI_RFCCLI" />
+          <ScalarProperty Name="CLI_NOMBRE" ColumnName="CLI_NOMBRE" />
+          <ScalarProperty Name="CLI_APEPAT" ColumnName="CLI_APEPAT" />
+          <ScalarProperty Name="CLI_APEMAT" ColumnName="CLI_APEMAT" />
+          <ScalarProperty Name="CLI_DOMICI" ColumnName="CLI_DOMICI" />
+          <ScalarProperty Name="CLI_NUMEXT" ColumnName="CLI_NUMEXT" />
+          <ScalarProperty Name="CLI_NUMINT" ColumnName="CLI_NUMINT" />
+          <ScalarProperty Name="CLI_COLONI" ColumnName="CLI_COLONI" />
+          <ScalarProperty Name="CLI_CODPOS" ColumnName="CLI_CODPOS" />
+          <ScalarProperty Name="CIU_KEYCIU" ColumnName="CIU_KEYCIU" />
+          <ScalarProperty Name="CLI_NUMIDE" ColumnName="CLI_NUMIDE" />
+          <ScalarProperty Name="CLI_FECALT" ColumnName="CLI_FECALT" />
+          <ScalarProperty Name="CLI_FEULAC" ColumnName="CLI_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CODIGOS_BARRA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CODIGOS_BARRA">
+        <MappingFragment StoreEntitySet="CA_CODIGOS_BARRA">
+          <ScalarProperty Name="COB_KEYIDE" ColumnName="COB_KEYIDE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="COB_COBUPC" ColumnName="COB_COBUPC" />
+          <ScalarProperty Name="COB_COBNOR" ColumnName="COB_COBNOR" />
+          <ScalarProperty Name="COB_FECALT" ColumnName="COB_FECALT" />
+          <ScalarProperty Name="COB_FEULAC" ColumnName="COB_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_COLORES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_COLORES">
+        <MappingFragment StoreEntitySet="CA_COLORES">
+          <ScalarProperty Name="COL_KEYCOL" ColumnName="COL_KEYCOL" />
+          <ScalarProperty Name="COL_CVECOL" ColumnName="COL_CVECOL" />
+          <ScalarProperty Name="COL_DESCRI" ColumnName="COL_DESCRI" />
+          <ScalarProperty Name="COL_FEULAC" ColumnName="COL_FEULAC" />
+          <ScalarProperty Name="COL_FECALT" ColumnName="COL_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_COMPANIA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_COMPANIA">
+        <MappingFragment StoreEntitySet="CA_COMPANIA">
+          <ScalarProperty Name="COM_KEYCOM" ColumnName="COM_KEYCOM" />
+          <ScalarProperty Name="COM_CVECOM" ColumnName="COM_CVECOM" />
+          <ScalarProperty Name="COM_NOMBRE" ColumnName="COM_NOMBRE" />
+          <ScalarProperty Name="COM_FECALT" ColumnName="COM_FECALT" />
+          <ScalarProperty Name="COM_FEULAC" ColumnName="COM_FEULAC" />
+          <ScalarProperty Name="COM_REFECO" ColumnName="COM_REFECO" />
+          <ScalarProperty Name="COM_DOMICI" ColumnName="COM_DOMICI" />
+          <ScalarProperty Name="COM_COLONI" ColumnName="COM_COLONI" />
+          <ScalarProperty Name="COM_CODPOS" ColumnName="COM_CODPOS" />
+          <ScalarProperty Name="COM_NUMEXT" ColumnName="COM_NUMEXT" />
+          <ScalarProperty Name="COM_NUMINT" ColumnName="COM_NUMINT" />
+          <ScalarProperty Name="CIU_KEYCIU" ColumnName="CIU_KEYCIU" />
+          <ScalarProperty Name="COM_NUMAPR" ColumnName="COM_NUMAPR" />
+          <ScalarProperty Name="COM_AYOAPR" ColumnName="COM_AYOAPR" />
+          <ScalarProperty Name="COM_NUMCER" ColumnName="COM_NUMCER" />
+          <ScalarProperty Name="COM_LEYFAC" ColumnName="COM_LEYFAC" />
+          <ScalarProperty Name="COM_TIPCOM" ColumnName="COM_TIPCOM" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_CUENTAS_CONTABLES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_CUENTAS_CONTABLES">
+        <MappingFragment StoreEntitySet="CA_CUENTAS_CONTABLES">
+          <ScalarProperty Name="CCO_KEYCCO" ColumnName="CCO_KEYCCO" />
+          <ScalarProperty Name="CCO_KEYTIP" ColumnName="CCO_KEYTIP" />
+          <ScalarProperty Name="CCO_ORDCTA" ColumnName="CCO_ORDCTA" />
+          <ScalarProperty Name="CCO_CTANIV" ColumnName="CCO_CTANIV" />
+          <ScalarProperty Name="MON_KEYMON" ColumnName="MON_KEYMON" />
+          <ScalarProperty Name="CCO_CODCTA" ColumnName="CCO_CODCTA" />
+          <ScalarProperty Name="CCO_NOMBRE" ColumnName="CCO_NOMBRE" />
+          <ScalarProperty Name="CCO_CTAPAD" ColumnName="CCO_CTAPAD" />
+          <ScalarProperty Name="CCO_DEDUCI" ColumnName="CCO_DEDUCI" />
+          <ScalarProperty Name="CCO_APLBAN" ColumnName="CCO_APLBAN" />
+          <ScalarProperty Name="CCO_DEBHAB" ColumnName="CCO_DEBHAB" />
+          <ScalarProperty Name="CCO_APLGAS" ColumnName="CCO_APLGAS" />
+          <ScalarProperty Name="CCO_FEULAC" ColumnName="CCO_FEULAC" />
+          <ScalarProperty Name="CCO_FECALT" ColumnName="CCO_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_DEPARTAMENTOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_DEPARTAMENTOS">
+        <MappingFragment StoreEntitySet="CA_DEPARTAMENTOS">
+          <ScalarProperty Name="DEP_KEYDEP" ColumnName="DEP_KEYDEP" />
+          <ScalarProperty Name="CEC_KEYCEC" ColumnName="CEC_KEYCEC" />
+          <ScalarProperty Name="DEP_CVEDEP" ColumnName="DEP_CVEDEP" />
+          <ScalarProperty Name="DEP_DESCRI" ColumnName="DEP_DESCRI" />
+          <ScalarProperty Name="DEP_FEULAC" ColumnName="DEP_FEULAC" />
+          <ScalarProperty Name="DEP_FECALT" ColumnName="DEP_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_DEVOLUCIONES_CLIENTES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_DEVOLUCIONES_CLIENTES">
+        <MappingFragment StoreEntitySet="CA_DEVOLUCIONES_CLIENTES">
+          <ScalarProperty Name="DEC_KEYDEC" ColumnName="DEC_KEYDEC" />
+          <ScalarProperty Name="DEC_DESCRI" ColumnName="DEC_DESCRI" />
+          <ScalarProperty Name="DEC_FEULAC" ColumnName="DEC_FEULAC" />
+          <ScalarProperty Name="DEC_FECALT" ColumnName="DEC_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_DIVISIONES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_DIVISIONES">
+        <MappingFragment StoreEntitySet="CA_DIVISIONES">
+          <ScalarProperty Name="DIV_KEYDIV" ColumnName="DIV_KEYDIV" />
+          <ScalarProperty Name="DIV_CVEDIV" ColumnName="DIV_CVEDIV" />
+          <ScalarProperty Name="DIV_DESCRI" ColumnName="DIV_DESCRI" />
+          <ScalarProperty Name="DIV_FEULAC" ColumnName="DIV_FEULAC" />
+          <ScalarProperty Name="DIV_FECALT" ColumnName="DIV_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_ESTADOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_ESTADOS">
+        <MappingFragment StoreEntitySet="CA_ESTADOS">
+          <ScalarProperty Name="EDO_KEYEDO" ColumnName="EDO_KEYEDO" />
+          <ScalarProperty Name="PAI_KEYPAI" ColumnName="PAI_KEYPAI" />
+          <ScalarProperty Name="EDO_NOMBRE" ColumnName="EDO_NOMBRE" />
+          <ScalarProperty Name="EDO_ABREVI" ColumnName="EDO_ABREVI" />
+          <ScalarProperty Name="EDO_FEULAC" ColumnName="EDO_FEULAC" />
+          <ScalarProperty Name="EDO_FECALT" ColumnName="EDO_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_ESTATUS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_ESTATUS">
+        <MappingFragment StoreEntitySet="CA_ESTATUS">
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="EST_CVESTS" ColumnName="EST_CVESTS" />
+          <ScalarProperty Name="EST_DESCRI" ColumnName="EST_DESCRI" />
+          <ScalarProperty Name="EST_FEULAC" ColumnName="EST_FEULAC" />
+          <ScalarProperty Name="EST_FECALT" ColumnName="EST_FECALT" />
+          <ScalarProperty Name="EST_ESTATU" ColumnName="EST_ESTATU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_FOLIOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_FOLIOS">
+        <MappingFragment StoreEntitySet="CA_FOLIOS">
+          <ScalarProperty Name="FOL_KEYFOL" ColumnName="FOL_KEYFOL" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="FOL_FEULAC" ColumnName="FOL_FEULAC" />
+          <ScalarProperty Name="FOL_FECALT" ColumnName="FOL_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_FORMAS_PAGO">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_FORMAS_PAGO">
+        <MappingFragment StoreEntitySet="CA_FORMAS_PAGO">
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="FPA_CVEFPA" ColumnName="FPA_CVEFPA" />
+          <ScalarProperty Name="FPA_DESCRI" ColumnName="FPA_DESCRI" />
+          <ScalarProperty Name="FPA_ORDENA" ColumnName="FPA_ORDENA" />
+          <ScalarProperty Name="CCO_KEYCCO" ColumnName="CCO_KEYCCO" />
+          <ScalarProperty Name="FPA_TARGTA" ColumnName="FPA_TARGTA" />
+          <ScalarProperty Name="FPA_APLMOE" ColumnName="FPA_APLMOE" />
+          <ScalarProperty Name="FPA_FEULAC" ColumnName="FPA_FEULAC" />
+          <ScalarProperty Name="FPA_FECALT" ColumnName="FPA_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_GASTOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_GASTOS">
+        <MappingFragment StoreEntitySet="CA_GASTOS">
+          <ScalarProperty Name="GAS_KEYGAS" ColumnName="GAS_KEYGAS" />
+          <ScalarProperty Name="CCO_KEYCCO" ColumnName="CCO_KEYCCO" />
+          <ScalarProperty Name="GAS_CVEGAS" ColumnName="GAS_CVEGAS" />
+          <ScalarProperty Name="GAS_DESCRI" ColumnName="GAS_DESCRI" />
+          <ScalarProperty Name="GAS_DEDUCI" ColumnName="GAS_DEDUCI" />
+          <ScalarProperty Name="GAS_FECALT" ColumnName="GAS_FECALT" />
+          <ScalarProperty Name="GAS_FEULAC" ColumnName="GAS_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_GENEROS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_GENEROS">
+        <MappingFragment StoreEntitySet="CA_GENEROS">
+          <ScalarProperty Name="GEN_KEYGEN" ColumnName="GEN_KEYGEN" />
+          <ScalarProperty Name="GEN_CVEGEN" ColumnName="GEN_CVEGEN" />
+          <ScalarProperty Name="GEN_GENERO" ColumnName="GEN_GENERO" />
+          <ScalarProperty Name="GEN_FECALT" ColumnName="GEN_FECALT" />
+          <ScalarProperty Name="GEN_FEULAC" ColumnName="GEN_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_HORARIOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_HORARIOS">
+        <MappingFragment StoreEntitySet="CA_HORARIOS">
+          <ScalarProperty Name="HOR_KEYHOR" ColumnName="HOR_KEYHOR" />
+          <ScalarProperty Name="CEC_KEYCEC" ColumnName="CEC_KEYCEC" />
+          <ScalarProperty Name="TIH_KEYTIH" ColumnName="TIH_KEYTIH" />
+          <ScalarProperty Name="HOR_HORIN1" ColumnName="HOR_HORIN1" />
+          <ScalarProperty Name="HOR_HORIN2" ColumnName="HOR_HORIN2" />
+          <ScalarProperty Name="HOR_HORFI1" ColumnName="HOR_HORFI1" />
+          <ScalarProperty Name="HOR_HORFI2" ColumnName="HOR_HORFI2" />
+          <ScalarProperty Name="HOR_FEULAC" ColumnName="HOR_FEULAC" />
+          <ScalarProperty Name="HOR_FECALT" ColumnName="HOR_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_IMPUESTOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_IMPUESTOS">
+        <MappingFragment StoreEntitySet="CA_IMPUESTOS">
+          <ScalarProperty Name="IMP_KEYIMP" ColumnName="IMP_KEYIMP" />
+          <ScalarProperty Name="IMP_CVEIMP" ColumnName="IMP_CVEIMP" />
+          <ScalarProperty Name="IMP_DESCRI" ColumnName="IMP_DESCRI" />
+          <ScalarProperty Name="IMP_PORCEN" ColumnName="IMP_PORCEN" />
+          <ScalarProperty Name="IMP_FEULAC" ColumnName="IMP_FEULAC" />
+          <ScalarProperty Name="IMP_FECALT" ColumnName="IMP_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_INCIDENCIAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_INCIDENCIAS">
+        <MappingFragment StoreEntitySet="CA_INCIDENCIAS">
+          <ScalarProperty Name="INC_KEYINC" ColumnName="INC_KEYINC" />
+          <ScalarProperty Name="INC_CVEINC" ColumnName="INC_CVEINC" />
+          <ScalarProperty Name="INC_DESCRI" ColumnName="INC_DESCRI" />
+          <ScalarProperty Name="INC_FECALT" ColumnName="INC_FECALT" />
+          <ScalarProperty Name="INC_FEULAC" ColumnName="INC_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_LISTAS_PRECIOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_LISTAS_PRECIOS">
+        <MappingFragment StoreEntitySet="CA_LISTAS_PRECIOS">
+          <ScalarProperty Name="LIP_KEYLIP" ColumnName="LIP_KEYLIP" />
+          <ScalarProperty Name="LIP_DESCRI" ColumnName="LIP_DESCRI" />
+          <ScalarProperty Name="LIP_PORINC" ColumnName="LIP_PORINC" />
+          <ScalarProperty Name="LIP_LISBAS" ColumnName="LIP_LISBAS" />
+          <ScalarProperty Name="LIP_PORFAC" ColumnName="LIP_PORFAC" />
+          <ScalarProperty Name="LIP_FEULAC" ColumnName="LIP_FEULAC" />
+          <ScalarProperty Name="LIP_FECALT" ColumnName="LIP_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_LISTAS_PRECIOS_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_LISTAS_PRECIOS_DETALLE">
+        <MappingFragment StoreEntitySet="CA_LISTAS_PRECIOS_DETALLE">
+          <ScalarProperty Name="LPD_KEYIDE" ColumnName="LPD_KEYIDE" />
+          <ScalarProperty Name="LIP_KEYLIP" ColumnName="LIP_KEYLIP" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="LPD_PRECIO" ColumnName="LPD_PRECIO" />
+          <ScalarProperty Name="LPD_COSTO" ColumnName="LPD_COSTO" />
+          <ScalarProperty Name="LPD_FEULAC" ColumnName="LPD_FEULAC" />
+          <ScalarProperty Name="LPD_FECALT" ColumnName="LPD_FECALT" />
+          <ScalarProperty Name="LPD_PREORI" ColumnName="LPD_PREORI" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_LUGARES_ENTREGAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_LUGARES_ENTREGAS">
+        <MappingFragment StoreEntitySet="CA_LUGARES_ENTREGAS">
+          <ScalarProperty Name="LUE_KEYLUE" ColumnName="LUE_KEYLUE" />
+          <ScalarProperty Name="LUE_DOMICI" ColumnName="LUE_DOMICI" />
+          <ScalarProperty Name="LUE_COLONI" ColumnName="LUE_COLONI" />
+          <ScalarProperty Name="LUE_NUMEXT" ColumnName="LUE_NUMEXT" />
+          <ScalarProperty Name="LUE_NUMINT" ColumnName="LUE_NUMINT" />
+          <ScalarProperty Name="LUE_CODPOS" ColumnName="LUE_CODPOS" />
+          <ScalarProperty Name="CIU_KEYCIU" ColumnName="CIU_KEYCIU" />
+          <ScalarProperty Name="LUE_FECALT" ColumnName="LUE_FECALT" />
+          <ScalarProperty Name="LUE_FEULAC" ColumnName="LUE_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MARCAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MARCAS">
+        <MappingFragment StoreEntitySet="CA_MARCAS">
+          <ScalarProperty Name="MAR_KEYMAR" ColumnName="MAR_KEYMAR" />
+          <ScalarProperty Name="MAR_CVEMAR" ColumnName="MAR_CVEMAR" />
+          <ScalarProperty Name="MAR_DESCRI" ColumnName="MAR_DESCRI" />
+          <ScalarProperty Name="MAR_FEULAC" ColumnName="MAR_FEULAC" />
+          <ScalarProperty Name="MAR_FECALT" ColumnName="MAR_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MEDIOS_CLIENTE">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MEDIOS_CLIENTE">
+        <MappingFragment StoreEntitySet="CA_MEDIOS_CLIENTE">
+          <ScalarProperty Name="MDC_KEYMDC" ColumnName="MDC_KEYMDC" />
+          <ScalarProperty Name="MEC_KEYMEC" ColumnName="MEC_KEYMEC" />
+          <ScalarProperty Name="CLI_KEYCLI" ColumnName="CLI_KEYCLI" />
+          <ScalarProperty Name="MDC_VALCON" ColumnName="MDC_VALCON" />
+          <ScalarProperty Name="MDC_FECALT" ColumnName="MDC_FECALT" />
+          <ScalarProperty Name="MDC_FEULAC" ColumnName="MDC_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MEDIOS_CLIENTE_FACTURACION">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MEDIOS_CLIENTE_FACTURACION">
+        <MappingFragment StoreEntitySet="CA_MEDIOS_CLIENTE_FACTURACION">
+          <ScalarProperty Name="MDC_KEYMDC" ColumnName="MDC_KEYMDC" />
+          <ScalarProperty Name="MEC_KEYMEC" ColumnName="MEC_KEYMEC" />
+          <ScalarProperty Name="CLI_KEYFAC" ColumnName="CLI_KEYFAC" />
+          <ScalarProperty Name="MDC_VALCON" ColumnName="MDC_VALCON" />
+          <ScalarProperty Name="MDC_FECALT" ColumnName="MDC_FECALT" />
+          <ScalarProperty Name="MDC_FEULAC" ColumnName="MDC_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MEDIOS_CONTACTO">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MEDIOS_CONTACTO">
+        <MappingFragment StoreEntitySet="CA_MEDIOS_CONTACTO">
+          <ScalarProperty Name="MEC_KEYMEC" ColumnName="MEC_KEYMEC" />
+          <ScalarProperty Name="MEC_DESCRI" ColumnName="MEC_DESCRI" />
+          <ScalarProperty Name="MEC_FEULAC" ColumnName="MEC_FEULAC" />
+          <ScalarProperty Name="MEC_FECALT" ColumnName="MEC_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MEDIOS_PROVEEDOR">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MEDIOS_PROVEEDOR">
+        <MappingFragment StoreEntitySet="CA_MEDIOS_PROVEEDOR">
+          <ScalarProperty Name="MDP_KEYMDP" ColumnName="MDP_KEYMDP" />
+          <ScalarProperty Name="PRV_KEYPRV" ColumnName="PRV_KEYPRV" />
+          <ScalarProperty Name="MEC_KEYMEC" ColumnName="MEC_KEYMEC" />
+          <ScalarProperty Name="MDP_VALCON" ColumnName="MDP_VALCON" />
+          <ScalarProperty Name="MDP_FEULAC" ColumnName="MDP_FEULAC" />
+          <ScalarProperty Name="MDP_FECALT" ColumnName="MDP_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MEDIOS_TIENDA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MEDIOS_TIENDA">
+        <MappingFragment StoreEntitySet="CA_MEDIOS_TIENDA">
+          <ScalarProperty Name="MTI_KEYMTI" ColumnName="MTI_KEYMTI" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="MEC_KEYMEC" ColumnName="MEC_KEYMEC" />
+          <ScalarProperty Name="MTI_VALCON" ColumnName="MTI_VALCON" />
+          <ScalarProperty Name="MTI_FECALT" ColumnName="MTI_FECALT" />
+          <ScalarProperty Name="MTI_FEULAC" ColumnName="MTI_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MEDIOS_TRANSPORTES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MEDIOS_TRANSPORTES">
+        <MappingFragment StoreEntitySet="CA_MEDIOS_TRANSPORTES">
+          <ScalarProperty Name="MDT_KEYMDT" ColumnName="MDT_KEYMDT" />
+          <ScalarProperty Name="MEC_KEYMEC" ColumnName="MEC_KEYMEC" />
+          <ScalarProperty Name="TRN_KEYTRN" ColumnName="TRN_KEYTRN" />
+          <ScalarProperty Name="MDT_VALCON" ColumnName="MDT_VALCON" />
+          <ScalarProperty Name="MDT_FECALT" ColumnName="MDT_FECALT" />
+          <ScalarProperty Name="MDT_FEULAC" ColumnName="MDT_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MESES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MESES">
+        <MappingFragment StoreEntitySet="CA_MESES">
+          <ScalarProperty Name="MES_KEYMES" ColumnName="MES_KEYMES" />
+          <ScalarProperty Name="MES_CVEMES" ColumnName="MES_CVEMES" />
+          <ScalarProperty Name="MES_DESCRI" ColumnName="MES_DESCRI" />
+          <ScalarProperty Name="MES_FEULAC" ColumnName="MES_FEULAC" />
+          <ScalarProperty Name="MES_FECALT" ColumnName="MES_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MODELOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MODELOS">
+        <MappingFragment StoreEntitySet="CA_MODELOS">
+          <ScalarProperty Name="MOD_KEYMOD" ColumnName="MOD_KEYMOD" />
+          <ScalarProperty Name="MOD_CVEMOD" ColumnName="MOD_CVEMOD" />
+          <ScalarProperty Name="MOD_DESCRI" ColumnName="MOD_DESCRI" />
+          <ScalarProperty Name="MOD_FEULAC" ColumnName="MOD_FEULAC" />
+          <ScalarProperty Name="MOD_FECALT" ColumnName="MOD_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MONEDA_DENOMINACION">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MONEDA_DENOMINACION">
+        <MappingFragment StoreEntitySet="CA_MONEDA_DENOMINACION">
+          <ScalarProperty Name="MDE_KEYMDE" ColumnName="MDE_KEYMDE" />
+          <ScalarProperty Name="MON_KEYMON" ColumnName="MON_KEYMON" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="MDE_VALOR" ColumnName="MDE_VALOR" />
+          <ScalarProperty Name="MDE_FECALT" ColumnName="MDE_FECALT" />
+          <ScalarProperty Name="MDE_FEULAC" ColumnName="MDE_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MONEDAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MONEDAS">
+        <MappingFragment StoreEntitySet="CA_MONEDAS">
+          <ScalarProperty Name="MON_KEYMON" ColumnName="MON_KEYMON" />
+          <ScalarProperty Name="MON_DESCRI" ColumnName="MON_DESCRI" />
+          <ScalarProperty Name="MON_MONNAC" ColumnName="MON_MONNAC" />
+          <ScalarProperty Name="MON_FEULAC" ColumnName="MON_FEULAC" />
+          <ScalarProperty Name="MON_FECALT" ColumnName="MON_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_MOTIVOS_CREDITO">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_MOTIVOS_CREDITO">
+        <MappingFragment StoreEntitySet="CA_MOTIVOS_CREDITO">
+          <ScalarProperty Name="MOC_KEYMOC" ColumnName="MOC_KEYMOC" />
+          <ScalarProperty Name="PUE_KEYPUE" ColumnName="PUE_KEYPUE" />
+          <ScalarProperty Name="MOC_CVEMOC" ColumnName="MOC_CVEMOC" />
+          <ScalarProperty Name="MOC_DESCRI" ColumnName="MOC_DESCRI" />
+          <ScalarProperty Name="MOC_MONTO" ColumnName="MOC_MONTO" />
+          <ScalarProperty Name="MOC_FECALT" ColumnName="MOC_FECALT" />
+          <ScalarProperty Name="MOC_FEULAC" ColumnName="MOC_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_OBJETIVOS_MENSUALES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_OBJETIVOS_MENSUALES">
+        <MappingFragment StoreEntitySet="CA_OBJETIVOS_MENSUALES">
+          <ScalarProperty Name="OBM_KEYIDE" ColumnName="OBM_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="MES_KEYMES" ColumnName="MES_KEYMES" />
+          <ScalarProperty Name="ANI_KEYANI" ColumnName="ANI_KEYANI" />
+          <ScalarProperty Name="OBM_TOTUNI" ColumnName="OBM_TOTUNI" />
+          <ScalarProperty Name="OBM_CANPES" ColumnName="OBM_CANPES" />
+          <ScalarProperty Name="OBM_FEULAC" ColumnName="OBM_FEULAC" />
+          <ScalarProperty Name="OBM_FECALT" ColumnName="OBM_FECALT" />
+          <ScalarProperty Name="OBM_OBSERV" ColumnName="OBM_OBSERV" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PAISES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PAISES">
+        <MappingFragment StoreEntitySet="CA_PAISES">
+          <ScalarProperty Name="PAI_KEYPAI" ColumnName="PAI_KEYPAI" />
+          <ScalarProperty Name="PAI_NOMBRE" ColumnName="PAI_NOMBRE" />
+          <ScalarProperty Name="PAI_FEULAC" ColumnName="PAI_FEULAC" />
+          <ScalarProperty Name="PAI_FECALT" ColumnName="PAI_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PROCESOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PROCESOS">
+        <MappingFragment StoreEntitySet="CA_PROCESOS">
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="PRO_CVEPRO" ColumnName="PRO_CVEPRO" />
+          <ScalarProperty Name="PRO_DESCRI" ColumnName="PRO_DESCRI" />
+          <ScalarProperty Name="PRO_FECALT" ColumnName="PRO_FECALT" />
+          <ScalarProperty Name="PRO_FEULAC" ColumnName="PRO_FEULAC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PRODUCTO_IMAGENES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PRODUCTO_IMAGENES">
+        <MappingFragment StoreEntitySet="CA_PRODUCTO_IMAGENES">
+          <ScalarProperty Name="IMG_KEYIMG" ColumnName="IMG_KEYIMG" />
+          <ScalarProperty Name="PRD_PRDMST" ColumnName="PRD_PRDMST" />
+          <ScalarProperty Name="IMG_ORDEN" ColumnName="IMG_ORDEN" />
+          <ScalarProperty Name="IMG_IMGBIN" ColumnName="IMG_IMGBIN" />
+          <ScalarProperty Name="IMG_FEULAC" ColumnName="IMG_FEULAC" />
+          <ScalarProperty Name="IMG_FECALT" ColumnName="IMG_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PRODUCTO_RANGO_TALLAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PRODUCTO_RANGO_TALLAS">
+        <MappingFragment StoreEntitySet="CA_PRODUCTO_RANGO_TALLAS">
+          <ScalarProperty Name="PRT_KEYIDE" ColumnName="PRT_KEYIDE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="PRT_FECALT" ColumnName="PRT_FECALT" />
+          <ScalarProperty Name="PRT_FEULAC" ColumnName="PRT_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PRODUCTOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PRODUCTOS">
+        <MappingFragment StoreEntitySet="CA_PRODUCTOS">
+          <ScalarProperty Name="PRD_KEYIDE" ColumnName="PRD_KEYIDE" />
+          <ScalarProperty Name="PRD_PRDMST" ColumnName="PRD_PRDMST" />
+          <ScalarProperty Name="PRD_DESCRI" ColumnName="PRD_DESCRI" />
+          <ScalarProperty Name="PRD_DESCOM" ColumnName="PRD_DESCOM" />
+          <ScalarProperty Name="TPR_KEYTPR" ColumnName="TPR_KEYTPR" />
+          <ScalarProperty Name="GEN_KEYGEN" ColumnName="GEN_KEYGEN" />
+          <ScalarProperty Name="MOD_KEYMOD" ColumnName="MOD_KEYMOD" />
+          <ScalarProperty Name="COL_KEYCOL" ColumnName="COL_KEYCOL" />
+          <ScalarProperty Name="DIV_KEYDIV" ColumnName="DIV_KEYDIV" />
+          <ScalarProperty Name="USO_KEYUSO" ColumnName="USO_KEYUSO" />
+          <ScalarProperty Name="SIL_KEYSIL" ColumnName="SIL_KEYSIL" />
+          <ScalarProperty Name="MAR_KEYMAR" ColumnName="MAR_KEYMAR" />
+          <ScalarProperty Name="TEM_KEYTEM" ColumnName="TEM_KEYTEM" />
+          <ScalarProperty Name="PRE_KEYPRE" ColumnName="PRE_KEYPRE" />
+          <ScalarProperty Name="PRD_TPOFAB" ColumnName="PRD_TPOFAB" />
+          <ScalarProperty Name="SAT_KEYSAT" ColumnName="SAT_KEYSAT" />
+          <ScalarProperty Name="PRD_PREMAX" ColumnName="PRD_PREMAX" />
+          <ScalarProperty Name="PRD_FECMOC" ColumnName="PRD_FECMOC" />
+          <ScalarProperty Name="PRD_FECALT" ColumnName="PRD_FECALT" />
+          <ScalarProperty Name="PRD_FEULAC" ColumnName="PRD_FEULAC" />
+          <ScalarProperty Name="PRD_FECBAJ" ColumnName="PRD_FECBAJ" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PRODUCTOS_CVESAT">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PRODUCTOS_CVESAT">
+        <MappingFragment StoreEntitySet="CA_PRODUCTOS_CVESAT">
+          <ScalarProperty Name="SAT_KEYSAT" ColumnName="SAT_KEYSAT" />
+          <ScalarProperty Name="SAT_CVESAT" ColumnName="SAT_CVESAT" />
+          <ScalarProperty Name="SAT_DESCRI" ColumnName="SAT_DESCRI" />
+          <ScalarProperty Name="SAT_FEULAC" ColumnName="SAT_FEULAC" />
+          <ScalarProperty Name="SAT_FECALT" ColumnName="SAT_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PRODUCTOS_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PRODUCTOS_DETALLE">
+        <MappingFragment StoreEntitySet="CA_PRODUCTOS_DETALLE">
+          <ScalarProperty Name="PRD_KEYIDE" ColumnName="PRD_KEYIDE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="PRD_PRDMST" ColumnName="PRD_PRDMST" />
+          <ScalarProperty Name="PRV_KEYPRV" ColumnName="PRV_KEYPRV" />
+          <ScalarProperty Name="PRD_ORDEN" ColumnName="PRD_ORDEN" />
+          <ScalarProperty Name="PRD_PRICOS" ColumnName="PRD_PRICOS" />
+          <ScalarProperty Name="PRD_ULTCOS" ColumnName="PRD_ULTCOS" />
+          <ScalarProperty Name="PRD_ACTCOS" ColumnName="PRD_ACTCOS" />
+          <ScalarProperty Name="PRD_COPRAN" ColumnName="PRD_COPRAN" />
+          <ScalarProperty Name="PRD_COPRAC" ColumnName="PRD_COPRAC" />
+          <ScalarProperty Name="PRD_FECALT" ColumnName="PRD_FECALT" />
+          <ScalarProperty Name="PRD_FEULAC" ColumnName="PRD_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PRODUCTOS_ESTATUS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PRODUCTOS_ESTATUS">
+        <MappingFragment StoreEntitySet="CA_PRODUCTOS_ESTATUS">
+          <ScalarProperty Name="PRE_KEYPRE" ColumnName="PRE_KEYPRE" />
+          <ScalarProperty Name="PRE_CVEPRE" ColumnName="PRE_CVEPRE" />
+          <ScalarProperty Name="PRE_DESCRI" ColumnName="PRE_DESCRI" />
+          <ScalarProperty Name="PRE_FEULAC" ColumnName="PRE_FEULAC" />
+          <ScalarProperty Name="PRE_FECALT" ColumnName="PRE_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PRODUCTOS_SIMILARES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PRODUCTOS_SIMILARES">
+        <MappingFragment StoreEntitySet="CA_PRODUCTOS_SIMILARES">
+          <ScalarProperty Name="PRS_KEYIDE" ColumnName="PRS_KEYIDE" />
+          <ScalarProperty Name="PRD_PRDSIM" ColumnName="PRD_PRDSIM" />
+          <ScalarProperty Name="PRD_PRDMST" ColumnName="PRD_PRDMST" />
+          <ScalarProperty Name="PRS_FEULAC" ColumnName="PRS_FEULAC" />
+          <ScalarProperty Name="PRS_FECALT" ColumnName="PRS_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PRODUCTS_YISUS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PRODUCTS_YISUS">
+        <MappingFragment StoreEntitySet="CA_PRODUCTS_YISUS">
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="StockDate" ColumnName="StockDate" />
+          <ScalarProperty Name="ProductComercialName" ColumnName="ProductComercialName" />
+          <ScalarProperty Name="ProductID_KEYIDE" ColumnName="ProductID_KEYIDE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PROMOCIONES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PROMOCIONES">
+        <MappingFragment StoreEntitySet="CA_PROMOCIONES">
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="TPC_KEYTPC" ColumnName="TPC_KEYTPC" />
+          <ScalarProperty Name="PRT_KEYPRT" ColumnName="PRT_KEYPRT" />
+          <ScalarProperty Name="PRO_CVEPRO" ColumnName="PRO_CVEPRO" />
+          <ScalarProperty Name="PRO_DESCRI" ColumnName="PRO_DESCRI" />
+          <ScalarProperty Name="PRO_FECINI" ColumnName="PRO_FECINI" />
+          <ScalarProperty Name="PRO_FECFIN" ColumnName="PRO_FECFIN" />
+          <ScalarProperty Name="PRO_FEULAC" ColumnName="PRO_FEULAC" />
+          <ScalarProperty Name="PRO_FECALT" ColumnName="PRO_FECALT" />
+          <ScalarProperty Name="PRO_CANCOM" ColumnName="PRO_CANCOM" />
+          <ScalarProperty Name="PRO_CANCOB" ColumnName="PRO_CANCOB" />
+          <ScalarProperty Name="PRO_PORDES" ColumnName="PRO_PORDES" />
+          <ScalarProperty Name="PRO_PRIORI" ColumnName="PRO_PRIORI" />
+          <ScalarProperty Name="PRO_AUTO" ColumnName="PRO_AUTO" />
+          <ScalarProperty Name="PRO_APLPOR" ColumnName="PRO_APLPOR" />
+          <ScalarProperty Name="PRO_APLICA" ColumnName="PRO_APLICA" />
+          <ScalarProperty Name="PRO_COMBINA" ColumnName="PRO_COMBINA" />
+          <ScalarProperty Name="PRO_PDESCM" ColumnName="PRO_PDESCM" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PROMOCIONES_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PROMOCIONES_DETALLE">
+        <MappingFragment StoreEntitySet="CA_PROMOCIONES_DETALLE">
+          <ScalarProperty Name="PMD_KEYIDE" ColumnName="PMD_KEYIDE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="PRD_CANTID" ColumnName="PRD_CANTID" />
+          <ScalarProperty Name="PMD_FEULAC" ColumnName="PMD_FEULAC" />
+          <ScalarProperty Name="PMD_FECALT" ColumnName="PMD_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PROMOCIONES_FORMAS_PAGO">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PROMOCIONES_FORMAS_PAGO">
+        <MappingFragment StoreEntitySet="CA_PROMOCIONES_FORMAS_PAGO">
+          <ScalarProperty Name="PMF_KEYIDE" ColumnName="PMF_KEYIDE" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="PMF_FEULAC" ColumnName="PMF_FEULAC" />
+          <ScalarProperty Name="PMF_FECALT" ColumnName="PMF_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PROMOCIONES_RANGOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PROMOCIONES_RANGOS">
+        <MappingFragment StoreEntitySet="CA_PROMOCIONES_RANGOS">
+          <ScalarProperty Name="RPR_KEYIDE" ColumnName="RPR_KEYIDE" />
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="RPR_MONTO" ColumnName="RPR_MONTO" />
+          <ScalarProperty Name="RPR_MINIMO" ColumnName="RPR_MINIMO" />
+          <ScalarProperty Name="RPR_MAXIMO" ColumnName="RPR_MAXIMO" />
+          <ScalarProperty Name="RPR_PORDES" ColumnName="RPR_PORDES" />
+          <ScalarProperty Name="RPR_FEULAC" ColumnName="RPR_FEULAC" />
+          <ScalarProperty Name="RPR_FECALT" ColumnName="RPR_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PROMOCIONES_RANGOS_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PROMOCIONES_RANGOS_DETALLE">
+        <MappingFragment StoreEntitySet="CA_PROMOCIONES_RANGOS_DETALLE">
+          <ScalarProperty Name="PRP_KEYIDE" ColumnName="PRP_KEYIDE" />
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="PRP_PREDES" ColumnName="PRP_PREDES" />
+          <ScalarProperty Name="PRP_PORDES" ColumnName="PRP_PORDES" />
+          <ScalarProperty Name="PRP_FECALT" ColumnName="PRP_FECALT" />
+          <ScalarProperty Name="PRP_FEULAC" ColumnName="PRP_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PROMOCIONES_TIENDAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PROMOCIONES_TIENDAS">
+        <MappingFragment StoreEntitySet="CA_PROMOCIONES_TIENDAS">
+          <ScalarProperty Name="PMT_KEYIDE" ColumnName="PMT_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="PMT_FEULAC" ColumnName="PMT_FEULAC" />
+          <ScalarProperty Name="PMT_FECALT" ColumnName="PMT_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PROMOCIONES_TIPO">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PROMOCIONES_TIPO">
+        <MappingFragment StoreEntitySet="CA_PROMOCIONES_TIPO">
+          <ScalarProperty Name="PRT_KEYPRT" ColumnName="PRT_KEYPRT" />
+          <ScalarProperty Name="PRT_CVEPRT" ColumnName="PRT_CVEPRT" />
+          <ScalarProperty Name="PRT_DESCRI" ColumnName="PRT_DESCRI" />
+          <ScalarProperty Name="PRT_FEULAC" ColumnName="PRT_FEULAC" />
+          <ScalarProperty Name="PRT_FECALT" ColumnName="PRT_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PROVEEDORES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PROVEEDORES">
+        <MappingFragment StoreEntitySet="CA_PROVEEDORES">
+          <ScalarProperty Name="PRV_KEYPRV" ColumnName="PRV_KEYPRV" />
+          <ScalarProperty Name="PRV_TIPPER" ColumnName="PRV_TIPPER" />
+          <ScalarProperty Name="PRV_NOMPRO" ColumnName="PRV_NOMPRO" />
+          <ScalarProperty Name="PRV_RFCPRV" ColumnName="PRV_RFCPRV" />
+          <ScalarProperty Name="PRV_DOMICI" ColumnName="PRV_DOMICI" />
+          <ScalarProperty Name="PRV_NUMEXT" ColumnName="PRV_NUMEXT" />
+          <ScalarProperty Name="PRV_NUMINT" ColumnName="PRV_NUMINT" />
+          <ScalarProperty Name="PRV_COLONI" ColumnName="PRV_COLONI" />
+          <ScalarProperty Name="PRV_CODPOS" ColumnName="PRV_CODPOS" />
+          <ScalarProperty Name="CIU_KEYCIU" ColumnName="CIU_KEYCIU" />
+          <ScalarProperty Name="IMP_KEYIMP" ColumnName="IMP_KEYIMP" />
+          <ScalarProperty Name="PRV_CONDIC" ColumnName="PRV_CONDIC" />
+          <ScalarProperty Name="PRV_DESCTO" ColumnName="PRV_DESCTO" />
+          <ScalarProperty Name="PRV_DIAENT" ColumnName="PRV_DIAENT" />
+          <ScalarProperty Name="PRV_PORFAC" ColumnName="PRV_PORFAC" />
+          <ScalarProperty Name="PRV_FEULAC" ColumnName="PRV_FEULAC" />
+          <ScalarProperty Name="PRV_FECALT" ColumnName="PRV_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PUESTOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PUESTOS">
+        <MappingFragment StoreEntitySet="CA_PUESTOS">
+          <ScalarProperty Name="PUE_KEYPUE" ColumnName="PUE_KEYPUE" />
+          <ScalarProperty Name="PUE_DESCRI" ColumnName="PUE_DESCRI" />
+          <ScalarProperty Name="PUE_FEULAC" ColumnName="PUE_FEULAC" />
+          <ScalarProperty Name="PUE_FECALT" ColumnName="PUE_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_RANGOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_RANGOS">
+        <MappingFragment StoreEntitySet="CA_RANGOS">
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAN_CVERAN" ColumnName="RAN_CVERAN" />
+          <ScalarProperty Name="RAN_DESCRI" ColumnName="RAN_DESCRI" />
+          <ScalarProperty Name="RAN_FEULAC" ColumnName="RAN_FEULAC" />
+          <ScalarProperty Name="RAN_FECALT" ColumnName="RAN_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_RANGOS_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_RANGOS_DETALLE">
+        <MappingFragment StoreEntitySet="CA_RANGOS_DETALLE">
+          <ScalarProperty Name="RAD_KEYIDE" ColumnName="RAD_KEYIDE" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="RAD_ORDEN" ColumnName="RAD_ORDEN" />
+          <ScalarProperty Name="RAD_FEULAC" ColumnName="RAD_FEULAC" />
+          <ScalarProperty Name="RAD_FECALT" ColumnName="RAD_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_RANGOS_PORCENTAJES_COMISION">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_RANGOS_PORCENTAJES_COMISION">
+        <MappingFragment StoreEntitySet="CA_RANGOS_PORCENTAJES_COMISION">
+          <ScalarProperty Name="RNG_KEYIDE" ColumnName="RNG_KEYIDE" />
+          <ScalarProperty Name="PUE_KEYPUE" ColumnName="PUE_KEYPUE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="RNG_UNIINI" ColumnName="RNG_UNIINI" />
+          <ScalarProperty Name="RNG_UNIFIN" ColumnName="RNG_UNIFIN" />
+          <ScalarProperty Name="RNG_PESINI" ColumnName="RNG_PESINI" />
+          <ScalarProperty Name="RNG_PESFIN" ColumnName="RNG_PESFIN" />
+          <ScalarProperty Name="RNG_MARINI" ColumnName="RNG_MARINI" />
+          <ScalarProperty Name="RNG_MARFIN" ColumnName="RNG_MARFIN" />
+          <ScalarProperty Name="RNG_EVAINI" ColumnName="RNG_EVAINI" />
+          <ScalarProperty Name="RNG_EVAFIN" ColumnName="RNG_EVAFIN" />
+          <ScalarProperty Name="RNG_ROTINI" ColumnName="RNG_ROTINI" />
+          <ScalarProperty Name="RNG_ROTFIN" ColumnName="RNG_ROTFIN" />
+          <ScalarProperty Name="RNG_FECALT" ColumnName="RNG_FECALT" />
+          <ScalarProperty Name="RNG_FEULAC" ColumnName="RNG_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_RESPUESTA_APLINET">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_RESPUESTA_APLINET">
+        <MappingFragment StoreEntitySet="CA_RESPUESTA_APLINET">
+          <ScalarProperty Name="REA_KEYREA" ColumnName="REA_KEYREA" />
+          <ScalarProperty Name="REA_DESCRIP" ColumnName="REA_DESCRIP" />
+          <ScalarProperty Name="REA_FEULAC" ColumnName="REA_FEULAC" />
+          <ScalarProperty Name="REA_FECALT" ColumnName="REA_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_SEMANAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_SEMANAS">
+        <MappingFragment StoreEntitySet="CA_SEMANAS">
+          <ScalarProperty Name="SEM_KEYIDE" ColumnName="SEM_KEYIDE" />
+          <ScalarProperty Name="SEM_KEYSEM" ColumnName="SEM_KEYSEM" />
+          <ScalarProperty Name="SEM_FECINI" ColumnName="SEM_FECINI" />
+          <ScalarProperty Name="SEM_FECFIN" ColumnName="SEM_FECFIN" />
+          <ScalarProperty Name="SEM_FEULAC" ColumnName="SEM_FEULAC" />
+          <ScalarProperty Name="SEM_FECALT" ColumnName="SEM_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_SILUETAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_SILUETAS">
+        <MappingFragment StoreEntitySet="CA_SILUETAS">
+          <ScalarProperty Name="SIL_KEYSIL" ColumnName="SIL_KEYSIL" />
+          <ScalarProperty Name="SIL_CVESIL" ColumnName="SIL_CVESIL" />
+          <ScalarProperty Name="SIL_DESCRI" ColumnName="SIL_DESCRI" />
+          <ScalarProperty Name="SIL_FEULAC" ColumnName="SIL_FEULAC" />
+          <ScalarProperty Name="SIL_FECACT" ColumnName="SIL_FECACT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_SUPERVISORES_ZONA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_SUPERVISORES_ZONA">
+        <MappingFragment StoreEntitySet="CA_SUPERVISORES_ZONA">
+          <ScalarProperty Name="SUZ_KEYIDE" ColumnName="SUZ_KEYIDE" />
+          <ScalarProperty Name="ZON_KEYZON" ColumnName="ZON_KEYZON" />
+          <ScalarProperty Name="SUZ_USRSUP" ColumnName="SUZ_USRSUP" />
+          <ScalarProperty Name="SUZ_FECALT" ColumnName="SUZ_FECALT" />
+          <ScalarProperty Name="SUZ_FEULAC" ColumnName="SUZ_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TEMPORADAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TEMPORADAS">
+        <MappingFragment StoreEntitySet="CA_TEMPORADAS">
+          <ScalarProperty Name="TEM_KEYTEM" ColumnName="TEM_KEYTEM" />
+          <ScalarProperty Name="TEM_CVETEM" ColumnName="TEM_CVETEM" />
+          <ScalarProperty Name="TEM_DESCRI" ColumnName="TEM_DESCRI" />
+          <ScalarProperty Name="TEM_FECINI" ColumnName="TEM_FECINI" />
+          <ScalarProperty Name="TEM_FECFIN" ColumnName="TEM_FECFIN" />
+          <ScalarProperty Name="TEM_FECLIM" ColumnName="TEM_FECLIM" />
+          <ScalarProperty Name="TEM_FEULAC" ColumnName="TEM_FEULAC" />
+          <ScalarProperty Name="TEM_FECALT" ColumnName="TEM_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TEXTO_TICKET">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TEXTO_TICKET">
+        <MappingFragment StoreEntitySet="CA_TEXTO_TICKET">
+          <ScalarProperty Name="TET_KEYTET" ColumnName="TET_KEYTET" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="TET_TEXTOT" ColumnName="TET_TEXTOT" />
+          <ScalarProperty Name="TET_FECALT" ColumnName="TET_FECALT" />
+          <ScalarProperty Name="TET_FEULAC" ColumnName="TET_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIENDAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIENDAS">
+        <MappingFragment StoreEntitySet="CA_TIENDAS">
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TTI_KEYTTI" ColumnName="TTI_KEYTTI" />
+          <ScalarProperty Name="CIU_KEYCIU" ColumnName="CIU_KEYCIU" />
+          <ScalarProperty Name="ZON_KEYZON" ColumnName="ZON_KEYZON" />
+          <ScalarProperty Name="IMP_KEYIMP" ColumnName="IMP_KEYIMP" />
+          <ScalarProperty Name="LIP_KEYLIP" ColumnName="LIP_KEYLIP" />
+          <ScalarProperty Name="TIE_CVETIE" ColumnName="TIE_CVETIE" />
+          <ScalarProperty Name="TIE_NOMBRE" ColumnName="TIE_NOMBRE" />
+          <ScalarProperty Name="TIE_DOMICI" ColumnName="TIE_DOMICI" />
+          <ScalarProperty Name="TIE_NUMEXT" ColumnName="TIE_NUMEXT" />
+          <ScalarProperty Name="TIE_NUMINT" ColumnName="TIE_NUMINT" />
+          <ScalarProperty Name="TIE_COLONI" ColumnName="TIE_COLONI" />
+          <ScalarProperty Name="TIE_CODPOS" ColumnName="TIE_CODPOS" />
+          <ScalarProperty Name="TIE_INVENT" ColumnName="TIE_INVENT" />
+          <ScalarProperty Name="TIE_INVMAX" ColumnName="TIE_INVMAX" />
+          <ScalarProperty Name="TIE_NUMSKU" ColumnName="TIE_NUMSKU" />
+          <ScalarProperty Name="TIE_VALUAC" ColumnName="TIE_VALUAC" />
+          <ScalarProperty Name="TIE_NUMAFI" ColumnName="TIE_NUMAFI" />
+          <ScalarProperty Name="TIE_ORDENA" ColumnName="TIE_ORDENA" />
+          <ScalarProperty Name="TIE_CAPALM" ColumnName="TIE_CAPALM" />
+          <ScalarProperty Name="TIE_KEYAUX" ColumnName="TIE_KEYAUX" />
+          <ScalarProperty Name="TIE_FECALT" ColumnName="TIE_FECALT" />
+          <ScalarProperty Name="TIE_FEULAC" ColumnName="TIE_FEULAC" />
+          <ScalarProperty Name="TIE_FECBAJ" ColumnName="TIE_FECBAJ" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIENDAS_BANCOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIENDAS_BANCOS">
+        <MappingFragment StoreEntitySet="CA_TIENDAS_BANCOS">
+          <ScalarProperty Name="TIB_KEYIDE" ColumnName="TIB_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="BAN_KEYBAN" ColumnName="BAN_KEYBAN" />
+          <ScalarProperty Name="TIB_FECALT" ColumnName="TIB_FECALT" />
+          <ScalarProperty Name="TIB_FEULAC" ColumnName="TIB_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIENDAS_CONFIGURACION">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIENDAS_CONFIGURACION">
+        <MappingFragment StoreEntitySet="CA_TIENDAS_CONFIGURACION">
+          <ScalarProperty Name="TIC_KEYTIC" ColumnName="TIC_KEYTIC" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TIC_PARTIC" ColumnName="TIC_PARTIC" />
+          <ScalarProperty Name="TIC_VALTIC" ColumnName="TIC_VALTIC" />
+          <ScalarProperty Name="TIC_DESCRI" ColumnName="TIC_DESCRI" />
+          <ScalarProperty Name="TIC_FEULAC" ColumnName="TIC_FEULAC" />
+          <ScalarProperty Name="TIC_FECALT" ColumnName="TIC_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPO_DOCUMENTO">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPO_DOCUMENTO">
+        <MappingFragment StoreEntitySet="CA_TIPO_DOCUMENTO">
+          <ScalarProperty Name="TDO_KEYIDE" ColumnName="TDO_KEYIDE" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="TDO_DESCRI" ColumnName="TDO_DESCRI" />
+          <ScalarProperty Name="TDO_FEULAC" ColumnName="TDO_FEULAC" />
+          <ScalarProperty Name="TDO_FECALT" ColumnName="TDO_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPOS_CAMBIOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPOS_CAMBIOS">
+        <MappingFragment StoreEntitySet="CA_TIPOS_CAMBIOS">
+          <ScalarProperty Name="CAM_KEYCAM" ColumnName="CAM_KEYCAM" />
+          <ScalarProperty Name="MON_KEYMON" ColumnName="MON_KEYMON" />
+          <ScalarProperty Name="CAM_CANTID" ColumnName="CAM_CANTID" />
+          <ScalarProperty Name="CAM_FECCAM" ColumnName="CAM_FECCAM" />
+          <ScalarProperty Name="CAM_FEULAC" ColumnName="CAM_FEULAC" />
+          <ScalarProperty Name="CAM_FECALT" ColumnName="CAM_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPOS_CLIENTES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPOS_CLIENTES">
+        <MappingFragment StoreEntitySet="CA_TIPOS_CLIENTES">
+          <ScalarProperty Name="TPC_KEYTPC" ColumnName="TPC_KEYTPC" />
+          <ScalarProperty Name="TPC_DESCRI" ColumnName="TPC_DESCRI" />
+          <ScalarProperty Name="TPC_FEULAC" ColumnName="TPC_FEULAC" />
+          <ScalarProperty Name="TPC_FECALT" ColumnName="TPC_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPOS_DIAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPOS_DIAS">
+        <MappingFragment StoreEntitySet="CA_TIPOS_DIAS">
+          <ScalarProperty Name="TID_KEYTID" ColumnName="TID_KEYTID" />
+          <ScalarProperty Name="TID_CVETID" ColumnName="TID_CVETID" />
+          <ScalarProperty Name="TID_DESCRI" ColumnName="TID_DESCRI" />
+          <ScalarProperty Name="TID_FEULAC" ColumnName="TID_FEULAC" />
+          <ScalarProperty Name="TID_FECALT" ColumnName="TID_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPOS_ERRORES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPOS_ERRORES">
+        <MappingFragment StoreEntitySet="CA_TIPOS_ERRORES">
+          <ScalarProperty Name="TER_KEYTER" ColumnName="TER_KEYTER" />
+          <ScalarProperty Name="TER_DESCRI" ColumnName="TER_DESCRI" />
+          <ScalarProperty Name="TER_FEULAC" ColumnName="TER_FEULAC" />
+          <ScalarProperty Name="TER_FECALT" ColumnName="TER_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPOS_HORARIOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPOS_HORARIOS">
+        <MappingFragment StoreEntitySet="CA_TIPOS_HORARIOS">
+          <ScalarProperty Name="TIH_KEYTIH" ColumnName="TIH_KEYTIH" />
+          <ScalarProperty Name="TIH_CVETIH" ColumnName="TIH_CVETIH" />
+          <ScalarProperty Name="TIH_DESCRI" ColumnName="TIH_DESCRI" />
+          <ScalarProperty Name="TIH_FEULAC" ColumnName="TIH_FEULAC" />
+          <ScalarProperty Name="TIH_FECALT" ColumnName="TIH_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPOS_MOVIMIENTOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPOS_MOVIMIENTOS">
+        <MappingFragment StoreEntitySet="CA_TIPOS_MOVIMIENTOS">
+          <ScalarProperty Name="TMO_KEYIDE" ColumnName="TMO_KEYIDE" />
+          <ScalarProperty Name="TMO_TPOMOV" ColumnName="TMO_TPOMOV" />
+          <ScalarProperty Name="TMO_CVETMO" ColumnName="TMO_CVETMO" />
+          <ScalarProperty Name="TMO_DESCRI" ColumnName="TMO_DESCRI" />
+          <ScalarProperty Name="TMO_FEULAC" ColumnName="TMO_FEULAC" />
+          <ScalarProperty Name="TMO_FECALT" ColumnName="TMO_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPOS_ORDEN_COMPRA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPOS_ORDEN_COMPRA">
+        <MappingFragment StoreEntitySet="CA_TIPOS_ORDEN_COMPRA">
+          <ScalarProperty Name="TOC_KEYTOC" ColumnName="TOC_KEYTOC" />
+          <ScalarProperty Name="TOC_CVETOC" ColumnName="TOC_CVETOC" />
+          <ScalarProperty Name="TOC_DESCRI" ColumnName="TOC_DESCRI" />
+          <ScalarProperty Name="TOC_FEULAC" ColumnName="TOC_FEULAC" />
+          <ScalarProperty Name="TOC_FECALT" ColumnName="TOC_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPOS_PRODUCTOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPOS_PRODUCTOS">
+        <MappingFragment StoreEntitySet="CA_TIPOS_PRODUCTOS">
+          <ScalarProperty Name="TPR_KEYTPR" ColumnName="TPR_KEYTPR" />
+          <ScalarProperty Name="TPR_CVETPO" ColumnName="TPR_CVETPO" />
+          <ScalarProperty Name="TPR_DESCRI" ColumnName="TPR_DESCRI" />
+          <ScalarProperty Name="TPR_FEULAC" ColumnName="TPR_FEULAC" />
+          <ScalarProperty Name="TPR_FECALT" ColumnName="TPR_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPOS_TIENDA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPOS_TIENDA">
+        <MappingFragment StoreEntitySet="CA_TIPOS_TIENDA">
+          <ScalarProperty Name="TTI_KEYTTI" ColumnName="TTI_KEYTTI" />
+          <ScalarProperty Name="TTI_CVETTI" ColumnName="TTI_CVETTI" />
+          <ScalarProperty Name="TTI_DESCRI" ColumnName="TTI_DESCRI" />
+          <ScalarProperty Name="TIT_FEULAC" ColumnName="TIT_FEULAC" />
+          <ScalarProperty Name="TIT_FECALT" ColumnName="TIT_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TIPOS_TRANSFERENCIA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TIPOS_TRANSFERENCIA">
+        <MappingFragment StoreEntitySet="CA_TIPOS_TRANSFERENCIA">
+          <ScalarProperty Name="TTR_KEYTTR" ColumnName="TTR_KEYTTR" />
+          <ScalarProperty Name="TTR_CVETTR" ColumnName="TTR_CVETTR" />
+          <ScalarProperty Name="TTR_DESCRI" ColumnName="TTR_DESCRI" />
+          <ScalarProperty Name="TTR_SEMUES" ColumnName="TTR_SEMUES" />
+          <ScalarProperty Name="TTR_FECALT" ColumnName="TTR_FECALT" />
+          <ScalarProperty Name="TTR_FEULAC" ColumnName="TTR_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_TRANSPORTES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_TRANSPORTES">
+        <MappingFragment StoreEntitySet="CA_TRANSPORTES">
+          <ScalarProperty Name="TRN_KEYTRN" ColumnName="TRN_KEYTRN" />
+          <ScalarProperty Name="TRN_DESCRI" ColumnName="TRN_DESCRI" />
+          <ScalarProperty Name="TRN_DOMICI" ColumnName="TRN_DOMICI" />
+          <ScalarProperty Name="TRN_NUMEXT" ColumnName="TRN_NUMEXT" />
+          <ScalarProperty Name="TRN_NUMINT" ColumnName="TRN_NUMINT" />
+          <ScalarProperty Name="TRN_COLONI" ColumnName="TRN_COLONI" />
+          <ScalarProperty Name="TRN_CODPOS" ColumnName="TRN_CODPOS" />
+          <ScalarProperty Name="CIU_KEYCIU" ColumnName="CIU_KEYCIU" />
+          <ScalarProperty Name="TRN_CONVEN" ColumnName="TRN_CONVEN" />
+          <ScalarProperty Name="TRN_FEULAC" ColumnName="TRN_FEULAC" />
+          <ScalarProperty Name="TRN_FECALT" ColumnName="TRN_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_USOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_USOS">
+        <MappingFragment StoreEntitySet="CA_USOS">
+          <ScalarProperty Name="USO_KEYUSO" ColumnName="USO_KEYUSO" />
+          <ScalarProperty Name="USO_CVEUSO" ColumnName="USO_CVEUSO" />
+          <ScalarProperty Name="USO_DESCRI" ColumnName="USO_DESCRI" />
+          <ScalarProperty Name="USO_FEULAC" ColumnName="USO_FEULAC" />
+          <ScalarProperty Name="USO_FECALT" ColumnName="USO_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_USUARIOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_USUARIOS">
+        <MappingFragment StoreEntitySet="CA_USUARIOS">
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="PUE_KEYPUE" ColumnName="PUE_KEYPUE" />
+          <ScalarProperty Name="USR_NOMUSR" ColumnName="USR_NOMUSR" />
+          <ScalarProperty Name="USR_PSWUSR" ColumnName="USR_PSWUSR" />
+          <ScalarProperty Name="USR_PSWSALT" ColumnName="USR_PSWSALT" />
+          <ScalarProperty Name="USR_IMGUSR" ColumnName="USR_IMGUSR" />
+          <ScalarProperty Name="USR_APROBA" ColumnName="USR_APROBA" />
+          <ScalarProperty Name="USR_ULACPW" ColumnName="USR_ULACPW" />
+          <ScalarProperty Name="USR_BLOQUE" ColumnName="USR_BLOQUE" />
+          <ScalarProperty Name="USR_FECBLO" ColumnName="USR_FECBLO" />
+          <ScalarProperty Name="USR_FECDSB" ColumnName="USR_FECDSB" />
+          <ScalarProperty Name="USR_ULBLOQ" ColumnName="USR_ULBLOQ" />
+          <ScalarProperty Name="USR_NUMINT" ColumnName="USR_NUMINT" />
+          <ScalarProperty Name="USR_INTENT" ColumnName="USR_INTENT" />
+          <ScalarProperty Name="USR_MOBALI" ColumnName="USR_MOBALI" />
+          <ScalarProperty Name="USR_NOMCOMP" ColumnName="USR_NOMCOMP" />
+          <ScalarProperty Name="USR_SEMAIL" ColumnName="USR_SEMAIL" />
+          <ScalarProperty Name="USR_USPSAP" ColumnName="USR_USPSAP" />
+          <ScalarProperty Name="USR_SUPERU" ColumnName="USR_SUPERU" />
+          <ScalarProperty Name="USR_DOMICI" ColumnName="USR_DOMICI" />
+          <ScalarProperty Name="USR_COLONI" ColumnName="USR_COLONI" />
+          <ScalarProperty Name="USR_CODPOS" ColumnName="USR_CODPOS" />
+          <ScalarProperty Name="USR_NOIMSS" ColumnName="USR_NOIMSS" />
+          <ScalarProperty Name="USR_HUELLA" ColumnName="USR_HUELLA" />
+          <ScalarProperty Name="USR_FECALT" ColumnName="USR_FECALT" />
+          <ScalarProperty Name="USR_FEULAC" ColumnName="USR_FEULAC" />
+          <ScalarProperty Name="USR_FECBAJ" ColumnName="USR_FECBAJ" />
+          <ScalarProperty Name="USR_STSUSR" ColumnName="USR_STSUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_ZONAS_GEOGRAFICAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_ZONAS_GEOGRAFICAS">
+        <MappingFragment StoreEntitySet="CA_ZONAS_GEOGRAFICAS">
+          <ScalarProperty Name="ZON_KEYZON" ColumnName="ZON_KEYZON" />
+          <ScalarProperty Name="ZON_CVEZON" ColumnName="ZON_CVEZON" />
+          <ScalarProperty Name="ZON_DESCRI" ColumnName="ZON_DESCRI" />
+          <ScalarProperty Name="ZON_FEULAC" ColumnName="ZON_FEULAC" />
+          <ScalarProperty Name="ZON_FECALT" ColumnName="ZON_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CC_CORTE_CAJA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CC_CORTE_CAJA">
+        <MappingFragment StoreEntitySet="CC_CORTE_CAJA">
+          <ScalarProperty Name="CCA_KEYIDE" ColumnName="CCA_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="CRE_KEYCRE" ColumnName="CRE_KEYCRE" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="CCA_FECCOR" ColumnName="CCA_FECCOR" />
+          <ScalarProperty Name="USR_KEYAUT" ColumnName="USR_KEYAUT" />
+          <ScalarProperty Name="CCA_DIFERE" ColumnName="CCA_DIFERE" />
+          <ScalarProperty Name="CCA_IMPCAP" ColumnName="CCA_IMPCAP" />
+          <ScalarProperty Name="CCA_IMPSIS" ColumnName="CCA_IMPSIS" />
+          <ScalarProperty Name="CCA_FECALT" ColumnName="CCA_FECALT" />
+          <ScalarProperty Name="CCA_FEULAC" ColumnName="CCA_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CD_CICLICO_DIFERENCIAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CD_CICLICO_DIFERENCIAS">
+        <MappingFragment StoreEntitySet="CD_CICLICO_DIFERENCIAS">
+          <ScalarProperty Name="CDI_KEYIDE" ColumnName="CDI_KEYIDE" />
+          <ScalarProperty Name="SEM_KEYSEM" ColumnName="SEM_KEYSEM" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="CDI_IMPUNI" ColumnName="CDI_IMPUNI" />
+          <ScalarProperty Name="CDI_PZASOB" ColumnName="CDI_PZASOB" />
+          <ScalarProperty Name="CDI_IMPSOB" ColumnName="CDI_IMPSOB" />
+          <ScalarProperty Name="CDI_TALSOB" ColumnName="CDI_TALSOB" />
+          <ScalarProperty Name="CDI_PZAFAL" ColumnName="CDI_PZAFAL" />
+          <ScalarProperty Name="CDI_TALFAL" ColumnName="CDI_TALFAL" />
+          <ScalarProperty Name="CDI_IMPFAL" ColumnName="CDI_IMPFAL" />
+          <ScalarProperty Name="CDI_MOTIVO" ColumnName="CDI_MOTIVO" />
+          <ScalarProperty Name="CDI_FEULAC" ColumnName="CDI_FEULAC" />
+          <ScalarProperty Name="CDI_FECALT" ColumnName="CDI_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CD_CODIGO_DESCUENTO">
+      <EntityTypeMapping TypeName="SIRESPAModel.CD_CODIGO_DESCUENTO">
+        <MappingFragment StoreEntitySet="CD_CODIGO_DESCUENTO">
+          <ScalarProperty Name="CDG_KEYCDG" ColumnName="CDG_KEYCDG" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="USR_KEYAPL" ColumnName="USR_KEYAPL" />
+          <ScalarProperty Name="CDG_ALFNUM" ColumnName="CDG_ALFNUM" />
+          <ScalarProperty Name="CDG_PREANT" ColumnName="CDG_PREANT" />
+          <ScalarProperty Name="CDG_PRECIO" ColumnName="CDG_PRECIO" />
+          <ScalarProperty Name="CDG_FECVIG" ColumnName="CDG_FECVIG" />
+          <ScalarProperty Name="CDG_FECALT" ColumnName="CDG_FECALT" />
+          <ScalarProperty Name="CDG_FEULAC" ColumnName="CDG_FEULAC" />
+          <ScalarProperty Name="CDG_FECAPL" ColumnName="CDG_FECAPL" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CD_CODIGOS_AUTORIZACION">
+      <EntityTypeMapping TypeName="SIRESPAModel.CD_CODIGOS_AUTORIZACION">
+        <MappingFragment StoreEntitySet="CD_CODIGOS_AUTORIZACION">
+          <ScalarProperty Name="CDG_KEYCDG" ColumnName="CDG_KEYCDG" />
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="EST_ESTATU" ColumnName="EST_ESTATU" />
+          <ScalarProperty Name="CDG_IDEMOV" ColumnName="CDG_IDEMOV" />
+          <ScalarProperty Name="CDG_MOTIVO" ColumnName="CDG_MOTIVO" />
+          <ScalarProperty Name="CDG_CODIGO" ColumnName="CDG_CODIGO" />
+          <ScalarProperty Name="CDG_FECVIG" ColumnName="CDG_FECVIG" />
+          <ScalarProperty Name="CDG_FECAPL" ColumnName="CDG_FECAPL" />
+          <ScalarProperty Name="USR_USRAPL" ColumnName="USR_USRAPL" />
+          <ScalarProperty Name="CDG_FECALT" ColumnName="CDG_FECALT" />
+          <ScalarProperty Name="CDG_FEULAC" ColumnName="CDG_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CD_CORTE_CAJA_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.CD_CORTE_CAJA_DETALLE">
+        <MappingFragment StoreEntitySet="CD_CORTE_CAJA_DETALLE">
+          <ScalarProperty Name="CMM_KEYIDE" ColumnName="CMM_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="CRE_KEYCRE" ColumnName="CRE_KEYCRE" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="CCA_FECCOR" ColumnName="CCA_FECCOR" />
+          <ScalarProperty Name="MDE_KEYMDE" ColumnName="MDE_KEYMDE" />
+          <ScalarProperty Name="CCD_CANTID" ColumnName="CCD_CANTID" />
+          <ScalarProperty Name="CCD_FECALT" ColumnName="CCD_FECALT" />
+          <ScalarProperty Name="CCD_FEULAC" ColumnName="CCD_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CE_CREDITO_EMPLEADOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.CE_CREDITO_EMPLEADOS">
+        <MappingFragment StoreEntitySet="CE_CREDITO_EMPLEADOS">
+          <ScalarProperty Name="CCE_KEYIDE" ColumnName="CCE_KEYIDE" />
+          <ScalarProperty Name="CEE_KEYCEE" ColumnName="CEE_KEYCEE" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="MOC_KEYMOC" ColumnName="MOC_KEYMOC" />
+          <ScalarProperty Name="USR_KEYEMP" ColumnName="USR_KEYEMP" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="CEE_SALDO" ColumnName="CEE_SALDO" />
+          <ScalarProperty Name="CEE_OBSERV" ColumnName="CEE_OBSERV" />
+          <ScalarProperty Name="CEE_FECVIG" ColumnName="CEE_FECVIG" />
+          <ScalarProperty Name="CEE_FECALT" ColumnName="CEE_FECALT" />
+          <ScalarProperty Name="CEE_FEULAC" ColumnName="CEE_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CF_CLIENTE_FRECUENTE">
+      <EntityTypeMapping TypeName="SIRESPAModel.CF_CLIENTE_FRECUENTE">
+        <MappingFragment StoreEntitySet="CF_CLIENTE_FRECUENTE">
+          <ScalarProperty Name="CLF_KEYIDE" ColumnName="CLF_KEYIDE" />
+          <ScalarProperty Name="CLI_KEYCLI" ColumnName="CLI_KEYCLI" />
+          <ScalarProperty Name="CLF_KEYCLF" ColumnName="CLF_KEYCLF" />
+          <ScalarProperty Name="CLF_FECALT" ColumnName="CLF_FECALT" />
+          <ScalarProperty Name="CLF_FEULAC" ColumnName="CLF_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CF_ORDEN_COMPRA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CF_ORDEN_COMPRA">
+        <MappingFragment StoreEntitySet="CF_ORDEN_COMPRA">
+          <ScalarProperty Name="OCF_KEYOCF" ColumnName="OCF_KEYOCF" />
+          <ScalarProperty Name="OCF_CVEOCF" ColumnName="OCF_CVEOCF" />
+          <ScalarProperty Name="OCF_DESCRI" ColumnName="OCF_DESCRI" />
+          <ScalarProperty Name="OCF_FEULAC" ColumnName="OCF_FEULAC" />
+          <ScalarProperty Name="OCF_FECALT" ColumnName="OCF_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CF_ORDEN_COMPRA_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.CF_ORDEN_COMPRA_DETALLE">
+        <MappingFragment StoreEntitySet="CF_ORDEN_COMPRA_DETALLE">
+          <ScalarProperty Name="OFD_KEYOFD" ColumnName="OFD_KEYOFD" />
+          <ScalarProperty Name="OCF_KEYOCF" ColumnName="OCF_KEYOCF" />
+          <ScalarProperty Name="OFD_VALOFD" ColumnName="OFD_VALOFD" />
+          <ScalarProperty Name="OFD_OBSERV" ColumnName="OFD_OBSERV" />
+          <ScalarProperty Name="OFD_FECALT" ColumnName="OFD_FECALT" />
+          <ScalarProperty Name="OFD_FEULAC" ColumnName="OFD_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="POC_KEYPOC" ColumnName="POC_KEYPOC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CF_PARAMETRO_ORDEN_COMPRA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CF_PARAMETRO_ORDEN_COMPRA">
+        <MappingFragment StoreEntitySet="CF_PARAMETRO_ORDEN_COMPRA">
+          <ScalarProperty Name="POC_KEYPOC" ColumnName="POC_KEYPOC" />
+          <ScalarProperty Name="POC_CVEPOC" ColumnName="POC_CVEPOC" />
+          <ScalarProperty Name="POC_DESCRI" ColumnName="POC_DESCRI" />
+          <ScalarProperty Name="POC_FEULAC" ColumnName="POC_FEULAC" />
+          <ScalarProperty Name="POC_FECALT" ColumnName="POC_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CP_CUENTAS_POR_PAGAR">
+      <EntityTypeMapping TypeName="SIRESPAModel.CP_CUENTAS_POR_PAGAR">
+        <MappingFragment StoreEntitySet="CP_CUENTAS_POR_PAGAR">
+          <ScalarProperty Name="CPP_KEYCPP" ColumnName="CPP_KEYCPP" />
+          <ScalarProperty Name="CEC_KEYCEC" ColumnName="CEC_KEYCEC" />
+          <ScalarProperty Name="PRV_KEYPRV" ColumnName="PRV_KEYPRV" />
+          <ScalarProperty Name="CPP_FECREC" ColumnName="CPP_FECREC" />
+          <ScalarProperty Name="CPP_FECFAC" ColumnName="CPP_FECFAC" />
+          <ScalarProperty Name="CPP_FECPAG" ColumnName="CPP_FECPAG" />
+          <ScalarProperty Name="CPP_SUBTOT" ColumnName="CPP_SUBTOT" />
+          <ScalarProperty Name="CPP_IMPIVA" ColumnName="CPP_IMPIVA" />
+          <ScalarProperty Name="CPP_IMPTOT" ColumnName="CPP_IMPTOT" />
+          <ScalarProperty Name="CPP_ITOTAL" ColumnName="CPP_ITOTAL" />
+          <ScalarProperty Name="CPP_IMPDES" ColumnName="CPP_IMPDES" />
+          <ScalarProperty Name="CPP_REFERE" ColumnName="CPP_REFERE" />
+          <ScalarProperty Name="CPP_SAPDOC" ColumnName="CPP_SAPDOC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CP_CUENTAS_POR_PAGAR_HISTORICO">
+      <EntityTypeMapping TypeName="SIRESPAModel.CP_CUENTAS_POR_PAGAR_HISTORICO">
+        <MappingFragment StoreEntitySet="CP_CUENTAS_POR_PAGAR_HISTORICO">
+          <ScalarProperty Name="CPH_KEYCPH" ColumnName="CPH_KEYCPH" />
+          <ScalarProperty Name="CEC_KEYCEC" ColumnName="CEC_KEYCEC" />
+          <ScalarProperty Name="PRV_KEYPRV" ColumnName="PRV_KEYPRV" />
+          <ScalarProperty Name="CPH_FECREC" ColumnName="CPH_FECREC" />
+          <ScalarProperty Name="CPH_FECFAC" ColumnName="CPH_FECFAC" />
+          <ScalarProperty Name="CPH_FECPAG" ColumnName="CPH_FECPAG" />
+          <ScalarProperty Name="CPH_SUBTOT" ColumnName="CPH_SUBTOT" />
+          <ScalarProperty Name="CPH_IMPIVA" ColumnName="CPH_IMPIVA" />
+          <ScalarProperty Name="CPH_IMPTOT" ColumnName="CPH_IMPTOT" />
+          <ScalarProperty Name="CPH_ITOTAL" ColumnName="CPH_ITOTAL" />
+          <ScalarProperty Name="CPH_IMPDES" ColumnName="CPH_IMPDES" />
+          <ScalarProperty Name="CPH_SAPDOC" ColumnName="CPH_SAPDOC" />
+          <ScalarProperty Name="CPH_REFERE" ColumnName="CPH_REFERE" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CR_CICLICO_RECAPITULACION">
+      <EntityTypeMapping TypeName="SIRESPAModel.CR_CICLICO_RECAPITULACION">
+        <MappingFragment StoreEntitySet="CR_CICLICO_RECAPITULACION">
+          <ScalarProperty Name="CRE_KEYIDE" ColumnName="CRE_KEYIDE" />
+          <ScalarProperty Name="SEM_KEYSEM" ColumnName="SEM_KEYSEM" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="GEN_KEYGEN" ColumnName="GEN_KEYGEN" />
+          <ScalarProperty Name="CRE_INFGEN" ColumnName="CRE_INFGEN" />
+          <ScalarProperty Name="CRE_INLGEN" ColumnName="CRE_INLGEN" />
+          <ScalarProperty Name="CRE_OBSERV" ColumnName="CRE_OBSERV" />
+          <ScalarProperty Name="CRE_FEULAC" ColumnName="CRE_FEULAC" />
+          <ScalarProperty Name="CRE_FECALT" ColumnName="CRE_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CR_CICLICO_RESUMEN">
+      <EntityTypeMapping TypeName="SIRESPAModel.CR_CICLICO_RESUMEN">
+        <MappingFragment StoreEntitySet="CR_CICLICO_RESUMEN">
+          <ScalarProperty Name="CIR_KEYIDE" ColumnName="CIR_KEYIDE" />
+          <ScalarProperty Name="SEM_KEYSEM" ColumnName="SEM_KEYSEM" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="DIV_KEYDIV" ColumnName="DIV_KEYDIV" />
+          <ScalarProperty Name="CIR_FEULAC" ColumnName="CIR_FEULAC" />
+          <ScalarProperty Name="CIR_DEVTRA" ColumnName="CIR_DEVTRA" />
+          <ScalarProperty Name="CIR_DIFMEN" ColumnName="CIR_DIFMEN" />
+          <ScalarProperty Name="CIR_DIFMAS" ColumnName="CIR_DIFMAS" />
+          <ScalarProperty Name="CIR_VENSEM" ColumnName="CIR_VENSEM" />
+          <ScalarProperty Name="CIR_MERREC" ColumnName="CIR_MERREC" />
+          <ScalarProperty Name="CIR_SALANT" ColumnName="CIR_SALANT" />
+          <ScalarProperty Name="CIR_OBDIMA" ColumnName="CIR_OBDIMA" />
+          <ScalarProperty Name="CIR_OBDIME" ColumnName="CIR_OBDIME" />
+          <ScalarProperty Name="CIR_OBVDIF" ColumnName="CIR_OBVDIF" />
+          <ScalarProperty Name="CIR_OBDETR" ColumnName="CIR_OBDETR" />
+          <ScalarProperty Name="CIR_OBVESE" ColumnName="CIR_OBVESE" />
+          <ScalarProperty Name="CIR_OBMERE" ColumnName="CIR_OBMERE" />
+          <ScalarProperty Name="CIR_OBSAAN" ColumnName="CIR_OBSAAN" />
+          <ScalarProperty Name="CIR_OBSAAC" ColumnName="CIR_OBSAAC" />
+          <ScalarProperty Name="CIR_OBTOIG" ColumnName="CIR_OBTOIG" />
+          <ScalarProperty Name="CIR_FECALT" ColumnName="CIR_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_CANCELACION_TICKET">
+      <EntityTypeMapping TypeName="SIRESPAModel.CT_CANCELACION_TICKET">
+        <MappingFragment StoreEntitySet="CT_CANCELACION_TICKET">
+          <ScalarProperty Name="CTK_KEYIDE" ColumnName="CTK_KEYIDE" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="CTD_KEYCTD" ColumnName="CTD_KEYCTD" />
+          <ScalarProperty Name="CTK_FEULAC" ColumnName="CTK_FEULAC" />
+          <ScalarProperty Name="CTK_FECALT" ColumnName="CTK_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CU_CUPONES">
+      <EntityTypeMapping TypeName="SIRESPAModel.CU_CUPONES">
+        <MappingFragment StoreEntitySet="CU_CUPONES">
+          <ScalarProperty Name="CUP_KEYIDE" ColumnName="CUP_KEYIDE" />
+          <ScalarProperty Name="CUP_KEYCUP" ColumnName="CUP_KEYCUP" />
+          <ScalarProperty Name="CUP_CODIGO" ColumnName="CUP_CODIGO" />
+          <ScalarProperty Name="CUP_FECALT" ColumnName="CUP_FECALT" />
+          <ScalarProperty Name="CUP_FEULAC" ColumnName="CUP_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DE_DEPOSITOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.DE_DEPOSITOS">
+        <MappingFragment StoreEntitySet="DE_DEPOSITOS">
+          <ScalarProperty Name="DEP_KEYDEP" ColumnName="DEP_KEYDEP" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="USR_KEYDEP" ColumnName="USR_KEYDEP" />
+          <ScalarProperty Name="BAN_KEYBAN" ColumnName="BAN_KEYBAN" />
+          <ScalarProperty Name="MON_KEYMON" ColumnName="MON_KEYMON" />
+          <ScalarProperty Name="DEP_IMPDEP" ColumnName="DEP_IMPDEP" />
+          <ScalarProperty Name="DEP_FICDEP" ColumnName="DEP_FICDEP" />
+          <ScalarProperty Name="DEP_FECDEP" ColumnName="DEP_FECDEP" />
+          <ScalarProperty Name="DEP_FECCIE" ColumnName="DEP_FECCIE" />
+          <ScalarProperty Name="DEP_FECCAP" ColumnName="DEP_FECCAP" />
+          <ScalarProperty Name="DEP_FECALT" ColumnName="DEP_FECALT" />
+          <ScalarProperty Name="DEP_FEULAC" ColumnName="DEP_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="DEP_OBSERV" ColumnName="DEP_OBSERV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DP_DEVOLUCIONES_PROVEEDOR">
+      <EntityTypeMapping TypeName="SIRESPAModel.DP_DEVOLUCIONES_PROVEEDOR">
+        <MappingFragment StoreEntitySet="DP_DEVOLUCIONES_PROVEEDOR">
+          <ScalarProperty Name="DEV_KEYDEV" ColumnName="DEV_KEYDEV" />
+          <ScalarProperty Name="PRV_KEYPRV" ColumnName="PRV_KEYPRV" />
+          <ScalarProperty Name="DEV_REFERE" ColumnName="DEV_REFERE" />
+          <ScalarProperty Name="DEV_CANDEV" ColumnName="DEV_CANDEV" />
+          <ScalarProperty Name="DEV_IMPSUB" ColumnName="DEV_IMPSUB" />
+          <ScalarProperty Name="DEV_IMPIVA" ColumnName="DEV_IMPIVA" />
+          <ScalarProperty Name="DEV_IMPTOT" ColumnName="DEV_IMPTOT" />
+          <ScalarProperty Name="DEV_FECCAP" ColumnName="DEV_FECCAP" />
+          <ScalarProperty Name="DEV_FECAPL" ColumnName="DEV_FECAPL" />
+          <ScalarProperty Name="DEV_FECCAN" ColumnName="DEV_FECCAN" />
+          <ScalarProperty Name="DEV_DOCUME" ColumnName="DEV_DOCUME" />
+          <ScalarProperty Name="TRN_KEYTRN" ColumnName="TRN_KEYTRN" />
+          <ScalarProperty Name="DEV_NOGUIA" ColumnName="DEV_NOGUIA" />
+          <ScalarProperty Name="DEV_FECALT" ColumnName="DEV_FECALT" />
+          <ScalarProperty Name="DEV_FEULAC" ColumnName="DEV_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DP_DEVOLUCIONES_PROVEEDOR_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.DP_DEVOLUCIONES_PROVEEDOR_DETALLE">
+        <MappingFragment StoreEntitySet="DP_DEVOLUCIONES_PROVEEDOR_DETALLE">
+          <ScalarProperty Name="DDE_KEYDDE" ColumnName="DDE_KEYDDE" />
+          <ScalarProperty Name="DEV_KEYDEV" ColumnName="DEV_KEYDEV" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="DDE_CANDEV" ColumnName="DDE_CANDEV" />
+          <ScalarProperty Name="DDE_ACTCOS" ColumnName="DDE_ACTCOS" />
+          <ScalarProperty Name="CDV_KEYCDV" ColumnName="CDV_KEYCDV" />
+          <ScalarProperty Name="DDE_FECALT" ColumnName="DDE_FECALT" />
+          <ScalarProperty Name="DDE_FEULAC" ColumnName="DDE_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EE_ERROR_EMBARQUE">
+      <EntityTypeMapping TypeName="SIRESPAModel.EE_ERROR_EMBARQUE">
+        <MappingFragment StoreEntitySet="EE_ERROR_EMBARQUE">
+          <ScalarProperty Name="EEE_KEYIDE" ColumnName="EEE_KEYIDE" />
+          <ScalarProperty Name="EEE_FECERR" ColumnName="EEE_FECERR" />
+          <ScalarProperty Name="TER_KEYTER" ColumnName="TER_KEYTER" />
+          <ScalarProperty Name="DEP_KEYDEP" ColumnName="DEP_KEYDEP" />
+          <ScalarProperty Name="EEE_DESCRI" ColumnName="EEE_DESCRI" />
+          <ScalarProperty Name="EEE_FECSOL" ColumnName="EEE_FECSOL" />
+          <ScalarProperty Name="EEE_SOLUCI" ColumnName="EEE_SOLUCI" />
+          <ScalarProperty Name="EEE_FEULAC" ColumnName="EEE_FEULAC" />
+          <ScalarProperty Name="EEE_FECALT" ColumnName="EEE_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EP_ESTATUS_PROCESOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.EP_ESTATUS_PROCESOS">
+        <MappingFragment StoreEntitySet="EP_ESTATUS_PROCESOS">
+          <ScalarProperty Name="EPR_KEYIDE" ColumnName="EPR_KEYIDE" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="PRO_ORDENA" ColumnName="PRO_ORDENA" />
+          <ScalarProperty Name="PRO_BLOQUE" ColumnName="PRO_BLOQUE" />
+          <ScalarProperty Name="EPR_FEULAC" ColumnName="EPR_FEULAC" />
+          <ScalarProperty Name="EPR_FECALT" ColumnName="EPR_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ER_ERRORES">
+      <EntityTypeMapping TypeName="SIRESPAModel.ER_ERRORES">
+        <MappingFragment StoreEntitySet="ER_ERRORES">
+          <ScalarProperty Name="ERR_KEYERR" ColumnName="ERR_KEYERR" />
+          <ScalarProperty Name="ERR_CVEERR" ColumnName="ERR_CVEERR" />
+          <ScalarProperty Name="ERR_DESCRI" ColumnName="ERR_DESCRI" />
+          <ScalarProperty Name="ERR_FECALT" ColumnName="ERR_FECALT" />
+          <ScalarProperty Name="ERR_FEULAC" ColumnName="ERR_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FE_FOLIO_FACTURA_ELECTRONICA">
+      <EntityTypeMapping TypeName="SIRESPAModel.FE_FOLIO_FACTURA_ELECTRONICA">
+        <MappingFragment StoreEntitySet="FE_FOLIO_FACTURA_ELECTRONICA">
+          <ScalarProperty Name="FFE_KEYFFE" ColumnName="FFE_KEYFFE" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="FFE_NSERIE" ColumnName="FFE_NSERIE" />
+          <ScalarProperty Name="FFE_FOLINI" ColumnName="FFE_FOLINI" />
+          <ScalarProperty Name="FFE_FOLFIN" ColumnName="FFE_FOLFIN" />
+          <ScalarProperty Name="FFE_FOLACT" ColumnName="FFE_FOLACT" />
+          <ScalarProperty Name="FFE_FECALT" ColumnName="FFE_FECALT" />
+          <ScalarProperty Name="FFE_FEULAC" ColumnName="FFE_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_FLETES">
+      <EntityTypeMapping TypeName="SIRESPAModel.FL_FLETES">
+        <MappingFragment StoreEntitySet="FL_FLETES">
+          <ScalarProperty Name="FLE_KEYFLE" ColumnName="FLE_KEYFLE" />
+          <ScalarProperty Name="TRF_KEYTRF" ColumnName="TRF_KEYTRF" />
+          <ScalarProperty Name="FLE_COSFLE" ColumnName="FLE_COSFLE" />
+          <ScalarProperty Name="FLE_FEULAC" ColumnName="FLE_FEULAC" />
+          <ScalarProperty Name="FLE_FECALT" ColumnName="FLE_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FS_FOLIOS_SALIDA">
+      <EntityTypeMapping TypeName="SIRESPAModel.FS_FOLIOS_SALIDA">
+        <MappingFragment StoreEntitySet="FS_FOLIOS_SALIDA">
+          <ScalarProperty Name="FLS_KEYIDE" ColumnName="FLS_KEYIDE" />
+          <ScalarProperty Name="FLS_KEYFLS" ColumnName="FLS_KEYFLS" />
+          <ScalarProperty Name="FLS_FEULAC" ColumnName="FLS_FEULAC" />
+          <ScalarProperty Name="FLS_FECALT" ColumnName="FLS_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GA_GASTOS_TIENDAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.GA_GASTOS_TIENDAS">
+        <MappingFragment StoreEntitySet="GA_GASTOS_TIENDAS">
+          <ScalarProperty Name="GAS_KEYGAS" ColumnName="GAS_KEYGAS" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="GAT_FECGAS" ColumnName="GAT_FECGAS" />
+          <ScalarProperty Name="GAT_KEYGAT" ColumnName="GAT_KEYGAT" />
+          <ScalarProperty Name="CRE_KEYCRE" ColumnName="CRE_KEYCRE" />
+          <ScalarProperty Name="GAT_NUMDOC" ColumnName="GAT_NUMDOC" />
+          <ScalarProperty Name="GAT_IMPGAS" ColumnName="GAT_IMPGAS" />
+          <ScalarProperty Name="GAT_OBSERV" ColumnName="GAT_OBSERV" />
+          <ScalarProperty Name="GAT_FECALT" ColumnName="GAT_FECALT" />
+          <ScalarProperty Name="GAT_FEULAC" ColumnName="GAT_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="GAS_IMAGEN" ColumnName="GAS_IMAGEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GA_GASTOS_TIENDAS_CONFIG">
+      <EntityTypeMapping TypeName="SIRESPAModel.GA_GASTOS_TIENDAS_CONFIG">
+        <MappingFragment StoreEntitySet="GA_GASTOS_TIENDAS_CONFIG">
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="GAS_KEYGAS" ColumnName="GAS_KEYGAS" />
+          <ScalarProperty Name="ANI_KEYANI" ColumnName="ANI_KEYANI" />
+          <ScalarProperty Name="MES_KEYMES" ColumnName="MES_KEYMES" />
+          <ScalarProperty Name="GTC_TOPGAS" ColumnName="GTC_TOPGAS" />
+          <ScalarProperty Name="GTC_FECALT" ColumnName="GTC_FECALT" />
+          <ScalarProperty Name="GTC_FEULAC" ColumnName="GTC_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IN_INCIDENCIAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.IN_INCIDENCIAS">
+        <MappingFragment StoreEntitySet="IN_INCIDENCIAS">
+          <ScalarProperty Name="INC_KEYIDE" ColumnName="INC_KEYIDE" />
+          <ScalarProperty Name="INC_KEYINC" ColumnName="INC_KEYINC" />
+          <ScalarProperty Name="USR_KEYEMP" ColumnName="USR_KEYEMP" />
+          <ScalarProperty Name="INC_FECINC" ColumnName="INC_FECINC" />
+          <ScalarProperty Name="INC_OBSERV" ColumnName="INC_OBSERV" />
+          <ScalarProperty Name="INC_FECALT" ColumnName="INC_FECALT" />
+          <ScalarProperty Name="INC_FEULAC" ColumnName="INC_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IN_INVENTARIOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.IN_INVENTARIOS">
+        <MappingFragment StoreEntitySet="IN_INVENTARIOS">
+          <ScalarProperty Name="INV_KEYIDE" ColumnName="INV_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="INV_EXILOG" ColumnName="INV_EXILOG" />
+          <ScalarProperty Name="INV_CANAPA" ColumnName="INV_CANAPA" />
+          <ScalarProperty Name="INV_FECALT" ColumnName="INV_FECALT" />
+          <ScalarProperty Name="INV_FEULAC" ColumnName="INV_FEULAC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IN_INVENTARIOS_HISTORICO">
+      <EntityTypeMapping TypeName="SIRESPAModel.IN_INVENTARIOS_HISTORICO">
+        <MappingFragment StoreEntitySet="IN_INVENTARIOS_HISTORICO">
+          <ScalarProperty Name="INH_KEYIDE" ColumnName="INH_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="INH_EXILOG" ColumnName="INH_EXILOG" />
+          <ScalarProperty Name="INH_CANAPA" ColumnName="INH_CANAPA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MA_MOVIMIENTOS_APARTADO">
+      <EntityTypeMapping TypeName="SIRESPAModel.MA_MOVIMIENTOS_APARTADO">
+        <MappingFragment StoreEntitySet="MA_MOVIMIENTOS_APARTADO">
+          <ScalarProperty Name="APA_KEYAPA" ColumnName="APA_KEYAPA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="MOA_KEYMOA" ColumnName="MOA_KEYMOA" />
+          <ScalarProperty Name="MOA_ABOMOA" ColumnName="MOA_ABOMOA" />
+          <ScalarProperty Name="MOA_FECALT" ColumnName="MOA_FECALT" />
+          <ScalarProperty Name="MOA_FEULAC" ColumnName="MOA_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="MMA_KEYMMA" ColumnName="MMA_KEYMMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MI_MOVIMIENTOS_INVENTARIO">
+      <EntityTypeMapping TypeName="SIRESPAModel.MI_MOVIMIENTOS_INVENTARIO">
+        <MappingFragment StoreEntitySet="MI_MOVIMIENTOS_INVENTARIO">
+          <ScalarProperty Name="MOI_KEYMOI" ColumnName="MOI_KEYMOI" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="TMO_TPOMOV" ColumnName="TMO_TPOMOV" />
+          <ScalarProperty Name="TMO_CVETMO" ColumnName="TMO_CVETMO" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="MOI_FECMOV" ColumnName="MOI_FECMOV" />
+          <ScalarProperty Name="MOI_CANTID" ColumnName="MOI_CANTID" />
+          <ScalarProperty Name="MOI_PRECIO" ColumnName="MOI_PRECIO" />
+          <ScalarProperty Name="MOI_COSTO" ColumnName="MOI_COSTO" />
+          <ScalarProperty Name="MOI_REFERE" ColumnName="MOI_REFERE" />
+          <ScalarProperty Name="MOI_DESCTO" ColumnName="MOI_DESCTO" />
+          <ScalarProperty Name="MOI_FECLLE" ColumnName="MOI_FECLLE" />
+          <ScalarProperty Name="MOI_COSPRO" ColumnName="MOI_COSPRO" />
+          <ScalarProperty Name="MOI_NUMDOC" ColumnName="MOI_NUMDOC" />
+          <ScalarProperty Name="MOI_NOMPRO" ColumnName="MOI_NOMPRO" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MP_MOVIMIENTOS_PRODUCTO">
+      <EntityTypeMapping TypeName="SIRESPAModel.MP_MOVIMIENTOS_PRODUCTO">
+        <MappingFragment StoreEntitySet="MP_MOVIMIENTOS_PRODUCTO">
+          <ScalarProperty Name="MOP_KEYIDE" ColumnName="MOP_KEYIDE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="MOP_PRIREC" ColumnName="MOP_PRIREC" />
+          <ScalarProperty Name="MOP_PRIVTA" ColumnName="MOP_PRIVTA" />
+          <ScalarProperty Name="MOP_ULTREC" ColumnName="MOP_ULTREC" />
+          <ScalarProperty Name="MOP_ULTVTA" ColumnName="MOP_ULTVTA" />
+          <ScalarProperty Name="MOP_ULTTRA" ColumnName="MOP_ULTTRA" />
+          <ScalarProperty Name="MOP_RECTRA" ColumnName="MOP_RECTRA" />
+          <ScalarProperty Name="MOP_FECALT" ColumnName="MOP_FECALT" />
+          <ScalarProperty Name="MOP_FEULAC" ColumnName="MOP_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NC_AUTORIZA_DEV_EFECTIVO">
+      <EntityTypeMapping TypeName="SIRESPAModel.NC_AUTORIZA_DEV_EFECTIVO">
+        <MappingFragment StoreEntitySet="NC_AUTORIZA_DEV_EFECTIVO">
+          <ScalarProperty Name="ADE_KEYIDE" ColumnName="ADE_KEYIDE" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="ADE_CODAUT" ColumnName="ADE_CODAUT" />
+          <ScalarProperty Name="ADE_FECVIG" ColumnName="ADE_FECVIG" />
+          <ScalarProperty Name="ADE_NUMDOC" ColumnName="ADE_NUMDOC" />
+          <ScalarProperty Name="ADE_IMPORT" ColumnName="ADE_IMPORT" />
+          <ScalarProperty Name="ADE_FECALT" ColumnName="ADE_FECALT" />
+          <ScalarProperty Name="ADE_FEULAC" ColumnName="ADE_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NC_NOTA_CREDITO">
+      <EntityTypeMapping TypeName="SIRESPAModel.NC_NOTA_CREDITO">
+        <MappingFragment StoreEntitySet="NC_NOTA_CREDITO">
+          <ScalarProperty Name="NOC_KEYIDE" ColumnName="NOC_KEYIDE" />
+          <ScalarProperty Name="NOC_KEYNOC" ColumnName="NOC_KEYNOC" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="TRA_KEYTRA1" ColumnName="TRA_KEYTRA1" />
+          <ScalarProperty Name="TIE_KEYTIE1" ColumnName="TIE_KEYTIE1" />
+          <ScalarProperty Name="TDO_KEYTDO1" ColumnName="TDO_KEYTDO1" />
+          <ScalarProperty Name="PRD_KEYPRD1" ColumnName="PRD_KEYPRD1" />
+          <ScalarProperty Name="RAN_KEYRAN1" ColumnName="RAN_KEYRAN1" />
+          <ScalarProperty Name="RAD_KEYTAL1" ColumnName="RAD_KEYTAL1" />
+          <ScalarProperty Name="USR_KEYVTA1" ColumnName="USR_KEYVTA1" />
+          <ScalarProperty Name="CDV_KEYCDV" ColumnName="CDV_KEYCDV" />
+          <ScalarProperty Name="TRD_CANTID1" ColumnName="TRD_CANTID1" />
+          <ScalarProperty Name="TRA_KEYTRA2" ColumnName="TRA_KEYTRA2" />
+          <ScalarProperty Name="TIE_KEYTIE2" ColumnName="TIE_KEYTIE2" />
+          <ScalarProperty Name="TDO_KEYTDO2" ColumnName="TDO_KEYTDO2" />
+          <ScalarProperty Name="NOC_IMPORT" ColumnName="NOC_IMPORT" />
+          <ScalarProperty Name="NOC_OBSERB" ColumnName="NOC_OBSERB" />
+          <ScalarProperty Name="NOC_FECAPL" ColumnName="NOC_FECAPL" />
+          <ScalarProperty Name="NOC_FECACT" ColumnName="NOC_FECACT" />
+          <ScalarProperty Name="NOC_FECREG" ColumnName="NOC_FECREG" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NE_NEGATIVOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.NE_NEGATIVOS">
+        <MappingFragment StoreEntitySet="NE_NEGATIVOS">
+          <ScalarProperty Name="NEG_KEYIDE" ColumnName="NEG_KEYIDE" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="USR_KEYVTA" ColumnName="USR_KEYVTA" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="NEG_CANNEG" ColumnName="NEG_CANNEG" />
+          <ScalarProperty Name="NEG_CANREC" ColumnName="NEG_CANREC" />
+          <ScalarProperty Name="NEG_FEULAC" ColumnName="NEG_FEULAC" />
+          <ScalarProperty Name="NEG_FECALT" ColumnName="NEG_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OC_ORDENES_COMPRA">
+      <EntityTypeMapping TypeName="SIRESPAModel.OC_ORDENES_COMPRA">
+        <MappingFragment StoreEntitySet="OC_ORDENES_COMPRA">
+          <ScalarProperty Name="OCO_KEYOCO" ColumnName="OCO_KEYOCO" />
+          <ScalarProperty Name="TOC_KEYTOC" ColumnName="TOC_KEYTOC" />
+          <ScalarProperty Name="PRV_KEYPRV" ColumnName="PRV_KEYPRV" />
+          <ScalarProperty Name="MON_KEYMON" ColumnName="MON_KEYMON" />
+          <ScalarProperty Name="OCO_CANORD" ColumnName="OCO_CANORD" />
+          <ScalarProperty Name="OCO_CANREC" ColumnName="OCO_CANREC" />
+          <ScalarProperty Name="OCO_CANCAN" ColumnName="OCO_CANCAN" />
+          <ScalarProperty Name="OCO_TOTAL" ColumnName="OCO_TOTAL" />
+          <ScalarProperty Name="OCO_FECORD" ColumnName="OCO_FECORD" />
+          <ScalarProperty Name="OCO_FECREC" ColumnName="OCO_FECREC" />
+          <ScalarProperty Name="OCO_FECCAN" ColumnName="OCO_FECCAN" />
+          <ScalarProperty Name="OCO_FECEST" ColumnName="OCO_FECEST" />
+          <ScalarProperty Name="OCO_FECAUT" ColumnName="OCO_FECAUT" />
+          <ScalarProperty Name="OCO_REFERE" ColumnName="OCO_REFERE" />
+          <ScalarProperty Name="OCO_COMENT" ColumnName="OCO_COMENT" />
+          <ScalarProperty Name="OCO_OBSERV" ColumnName="OCO_OBSERV" />
+          <ScalarProperty Name="OCF_KEYOCF" ColumnName="OCF_KEYOCF" />
+          <ScalarProperty Name="OCO_FEULAC" ColumnName="OCO_FEULAC" />
+          <ScalarProperty Name="OCO_FECALT" ColumnName="OCO_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OC_ORDENES_COMPRA_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.OC_ORDENES_COMPRA_DETALLE">
+        <MappingFragment StoreEntitySet="OC_ORDENES_COMPRA_DETALLE">
+          <ScalarProperty Name="OCD_KEYIDE" ColumnName="OCD_KEYIDE" />
+          <ScalarProperty Name="OCO_KEYOCO" ColumnName="OCO_KEYOCO" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="LUE_KEYLUE" ColumnName="LUE_KEYLUE" />
+          <ScalarProperty Name="OCD_COSORD" ColumnName="OCD_COSORD" />
+          <ScalarProperty Name="OCD_COSREC" ColumnName="OCD_COSREC" />
+          <ScalarProperty Name="OCD_PREMAX" ColumnName="OCD_PREMAX" />
+          <ScalarProperty Name="OCD_CANORD" ColumnName="OCD_CANORD" />
+          <ScalarProperty Name="OCD_CANREC" ColumnName="OCD_CANREC" />
+          <ScalarProperty Name="OCD_CANCAN" ColumnName="OCD_CANCAN" />
+          <ScalarProperty Name="OCD_FECREC" ColumnName="OCD_FECREC" />
+          <ScalarProperty Name="OCD_FECCAN" ColumnName="OCD_FECCAN" />
+          <ScalarProperty Name="OCD_DESCTO" ColumnName="OCD_DESCTO" />
+          <ScalarProperty Name="OCD_NFOLIO" ColumnName="OCD_NFOLIO" />
+          <ScalarProperty Name="OCD_NSERIE" ColumnName="OCD_NSERIE" />
+          <ScalarProperty Name="OCD_REFERE" ColumnName="OCD_REFERE" />
+          <ScalarProperty Name="OCD_KEYREN" ColumnName="OCD_KEYREN" />
+          <ScalarProperty Name="OCD_LOTE" ColumnName="OCD_LOTE" />
+          <ScalarProperty Name="OCD_OBSERV" ColumnName="OCD_OBSERV" />
+          <ScalarProperty Name="OCD_FECALT" ColumnName="OCD_FECALT" />
+          <ScalarProperty Name="OCD_FEULAC" ColumnName="OCD_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PA_PAR_APLINET">
+      <EntityTypeMapping TypeName="SIRESPAModel.PA_PAR_APLINET">
+        <MappingFragment StoreEntitySet="PA_PAR_APLINET">
+          <ScalarProperty Name="PAP_KEYPAP" ColumnName="PAP_KEYPAP" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="PAP_PINPAD" ColumnName="PAP_PINPAD" />
+          <ScalarProperty Name="PAP_APLPRO" ColumnName="PAP_APLPRO" />
+          <ScalarProperty Name="PAP_NUMMES" ColumnName="PAP_NUMMES" />
+          <ScalarProperty Name="PAP_INTERE" ColumnName="PAP_INTERE" />
+          <ScalarProperty Name="PAP_FECACT" ColumnName="PAP_FECACT" />
+          <ScalarProperty Name="PAP_FECALT" ColumnName="PAP_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PN_PRODUCTOS_NEGADOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.PN_PRODUCTOS_NEGADOS">
+        <MappingFragment StoreEntitySet="PN_PRODUCTOS_NEGADOS">
+          <ScalarProperty Name="PRN_KEYPRN" ColumnName="PRN_KEYPRN" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="PRN_CANTID" ColumnName="PRN_CANTID" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="CAN_KEYCAN" ColumnName="CAN_KEYCAN" />
+          <ScalarProperty Name="PRN_FECCAP" ColumnName="PRN_FECCAP" />
+          <ScalarProperty Name="PRN_FECALT" ColumnName="PRN_FECALT" />
+          <ScalarProperty Name="PRN_FEULAC" ColumnName="PRN_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RE_RECIBO_ELECTRONICO">
+      <EntityTypeMapping TypeName="SIRESPAModel.RE_RECIBO_ELECTRONICO">
+        <MappingFragment StoreEntitySet="RE_RECIBO_ELECTRONICO">
+          <ScalarProperty Name="REE_KEYIDE" ColumnName="REE_KEYIDE" />
+          <ScalarProperty Name="REE_NUMFAC" ColumnName="REE_NUMFAC" />
+          <ScalarProperty Name="PRV_KEYPRV" ColumnName="PRV_KEYPRV" />
+          <ScalarProperty Name="REE_FECFAC" ColumnName="REE_FECFAC" />
+          <ScalarProperty Name="REE_COSORD" ColumnName="REE_COSORD" />
+          <ScalarProperty Name="REE_TIPPRO" ColumnName="REE_TIPPRO" />
+          <ScalarProperty Name="REE_FECSYS" ColumnName="REE_FECSYS" />
+          <ScalarProperty Name="REE_FECREC" ColumnName="REE_FECREC" />
+          <ScalarProperty Name="REE_FECCXP" ColumnName="REE_FECCXP" />
+          <ScalarProperty Name="REE_FECPAG" ColumnName="REE_FECPAG" />
+          <ScalarProperty Name="REE_CONSEC" ColumnName="REE_CONSEC" />
+          <ScalarProperty Name="REE_KEYDOC" ColumnName="REE_KEYDOC" />
+          <ScalarProperty Name="REE_USRWEB" ColumnName="REE_USRWEB" />
+          <ScalarProperty Name="REE_USREG" ColumnName="REE_USREG" />
+          <ScalarProperty Name="REE_PDFDOC" ColumnName="REE_PDFDOC" />
+          <ScalarProperty Name="REE_NOMDOC" ColumnName="REE_NOMDOC" />
+          <ScalarProperty Name="REE_XMLDOC" ColumnName="REE_XMLDOC" />
+          <ScalarProperty Name="REE_SUBTOT" ColumnName="REE_SUBTOT" />
+          <ScalarProperty Name="REE_IVATOT" ColumnName="REE_IVATOT" />
+          <ScalarProperty Name="REE_IMPTOT" ColumnName="REE_IMPTOT" />
+          <ScalarProperty Name="REE_PZATOT" ColumnName="REE_PZATOT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RE_RECIBO_ELECTRONICO_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.RE_RECIBO_ELECTRONICO_DETALLE">
+        <MappingFragment StoreEntitySet="RE_RECIBO_ELECTRONICO_DETALLE">
+          <ScalarProperty Name="RED_KEYIDE" ColumnName="RED_KEYIDE" />
+          <ScalarProperty Name="REE_NUMFAC" ColumnName="REE_NUMFAC" />
+          <ScalarProperty Name="PRV_KEYPRV" ColumnName="PRV_KEYPRV" />
+          <ScalarProperty Name="OCO_KEYOCO" ColumnName="OCO_KEYOCO" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="LUE_KEYLUE" ColumnName="LUE_KEYLUE" />
+          <ScalarProperty Name="RED_COSPRD" ColumnName="RED_COSPRD" />
+          <ScalarProperty Name="RED_CANTID" ColumnName="RED_CANTID" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RF_REFERE_FACELEC">
+      <EntityTypeMapping TypeName="SIRESPAModel.RF_REFERE_FACELEC">
+        <MappingFragment StoreEntitySet="RF_REFERE_FACELEC">
+          <ScalarProperty Name="RFE_KEYRFE" ColumnName="RFE_KEYRFE" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="RFE_REFECO" ColumnName="RFE_REFECO" />
+          <ScalarProperty Name="RFE_NSERIE" ColumnName="RFE_NSERIE" />
+          <ScalarProperty Name="RFE_FOLFAC" ColumnName="RFE_FOLFAC" />
+          <ScalarProperty Name="RFE_SUBTOT" ColumnName="RFE_SUBTOT" />
+          <ScalarProperty Name="RFE_IMPIVA" ColumnName="RFE_IMPIVA" />
+          <ScalarProperty Name="RFE_IMPTOT" ColumnName="RFE_IMPTOT" />
+          <ScalarProperty Name="RFE_FECFAC" ColumnName="RFE_FECFAC" />
+          <ScalarProperty Name="RFE_SERNCR" ColumnName="RFE_SERNCR" />
+          <ScalarProperty Name="RFE_FOLNCR" ColumnName="RFE_FOLNCR" />
+          <ScalarProperty Name="RFE_CODFAC" ColumnName="RFE_CODFAC" />
+          <ScalarProperty Name="RFE_FECALT" ColumnName="RFE_FECALT" />
+          <ScalarProperty Name="RFE_FEULAC" ColumnName="RFE_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RO_ROLES">
+      <EntityTypeMapping TypeName="SIRESPAModel.RO_ROLES">
+        <MappingFragment StoreEntitySet="RO_ROLES">
+          <ScalarProperty Name="ROL_KEYIDE" ColumnName="ROL_KEYIDE" />
+          <ScalarProperty Name="ROL_FECROL" ColumnName="ROL_FECROL" />
+          <ScalarProperty Name="SEM_KEYSEM" ColumnName="SEM_KEYSEM" />
+          <ScalarProperty Name="CEC_KEYCEC" ColumnName="CEC_KEYCEC" />
+          <ScalarProperty Name="TID_KEYTID" ColumnName="TID_KEYTID" />
+          <ScalarProperty Name="HOR_KEYHOR" ColumnName="HOR_KEYHOR" />
+          <ScalarProperty Name="ROL_FEULAC" ColumnName="ROL_FEULAC" />
+          <ScalarProperty Name="ROL_FECALT" ColumnName="ROL_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SE_COMPANIAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.SE_COMPANIAS">
+        <MappingFragment StoreEntitySet="SE_COMPANIAS">
+          <ScalarProperty Name="COM_KEYCOM" ColumnName="COM_KEYCOM" />
+          <ScalarProperty Name="COM_DESCRI" ColumnName="COM_DESCRI" />
+          <ScalarProperty Name="COM_FECALT" ColumnName="COM_FECALT" />
+          <ScalarProperty Name="COM_FEULAC" ColumnName="COM_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SE_SEC_PROCESOS_ESTATUS">
+      <EntityTypeMapping TypeName="SIRESPAModel.SE_SEC_PROCESOS_ESTATUS">
+        <MappingFragment StoreEntitySet="SE_SEC_PROCESOS_ESTATUS">
+          <ScalarProperty Name="EST_KEYSTI" ColumnName="EST_KEYSTI" />
+          <ScalarProperty Name="EST_KEYSTF" ColumnName="EST_KEYSTF" />
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SI_SINCRONIZA">
+      <EntityTypeMapping TypeName="SIRESPAModel.SI_SINCRONIZA">
+        <MappingFragment StoreEntitySet="SI_SINCRONIZA">
+          <ScalarProperty Name="SIN_SINCID" ColumnName="SIN_SINCID" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="SIN_SCRIPT" ColumnName="SIN_SCRIPT" />
+          <ScalarProperty Name="SIN_TIPSCP" ColumnName="SIN_TIPSCP" />
+          <ScalarProperty Name="SIN_FECALT" ColumnName="SIN_FECALT" />
+          <ScalarProperty Name="SIN_FECSIN" ColumnName="SIN_FECSIN" />
+          <ScalarProperty Name="SIN_FECACT" ColumnName="SIN_FECACT" />
+          <ScalarProperty Name="SIN_STATUS" ColumnName="SIN_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SP_SCRIPT_PUNTO_VENTA">
+      <EntityTypeMapping TypeName="SIRESPAModel.SP_SCRIPT_PUNTO_VENTA">
+        <MappingFragment StoreEntitySet="SP_SCRIPT_PUNTO_VENTA">
+          <ScalarProperty Name="SPV_KEYIDE" ColumnName="SPV_KEYIDE" />
+          <ScalarProperty Name="SPV_KEYSPV" ColumnName="SPV_KEYSPV" />
+          <ScalarProperty Name="SPV_SCRIPT" ColumnName="SPV_SCRIPT" />
+          <ScalarProperty Name="SPV_FECACT" ColumnName="SPV_FECACT" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="SPV_FECAPL" ColumnName="SPV_FECAPL" />
+          <ScalarProperty Name="SPV_FECPRO" ColumnName="SPV_FECPRO" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="SPV_FECALT" ColumnName="SPV_FECALT" />
+          <ScalarProperty Name="SPV_FEULAC" ColumnName="SPV_FEULAC" />
+          <ScalarProperty Name="SPV_ERRSCR" ColumnName="SPV_ERRSCR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TC_TIENDAS_CIERRE">
+      <EntityTypeMapping TypeName="SIRESPAModel.TC_TIENDAS_CIERRE">
+        <MappingFragment StoreEntitySet="TC_TIENDAS_CIERRE">
+          <ScalarProperty Name="TIC_KEYIDE" ColumnName="TIC_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="TIE_FECCIE" ColumnName="TIE_FECCIE" />
+          <ScalarProperty Name="TIC_MONCIE" ColumnName="TIC_MONCIE" />
+          <ScalarProperty Name="TIC_FEULAC" ColumnName="TIC_FEULAC" />
+          <ScalarProperty Name="TIC_FECALT" ColumnName="TIC_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_TIENDAS_DOCUMENTOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.TD_TIENDAS_DOCUMENTOS">
+        <MappingFragment StoreEntitySet="TD_TIENDAS_DOCUMENTOS">
+          <ScalarProperty Name="TID_KEYTID" ColumnName="TID_KEYTID" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TID_TITULO" ColumnName="TID_TITULO" />
+          <ScalarProperty Name="TID_DESCRI" ColumnName="TID_DESCRI" />
+          <ScalarProperty Name="TID_DOCUME" ColumnName="TID_DOCUME" />
+          <ScalarProperty Name="TID_FEULAC" ColumnName="TID_FEULAC" />
+          <ScalarProperty Name="TID_FECALT" ColumnName="TID_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_TRANSACCIONES_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.TD_TRANSACCIONES_DETALLE">
+        <MappingFragment StoreEntitySet="TD_TRANSACCIONES_DETALLE">
+          <ScalarProperty Name="TRA_KEYIDE" ColumnName="TRA_KEYIDE" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="USR_KEYVTA" ColumnName="USR_KEYVTA" />
+          <ScalarProperty Name="TRD_CANTID" ColumnName="TRD_CANTID" />
+          <ScalarProperty Name="TRD_PRECIO" ColumnName="TRD_PRECIO" />
+          <ScalarProperty Name="TRD_PCOSTO" ColumnName="TRD_PCOSTO" />
+          <ScalarProperty Name="TRD_PORDES" ColumnName="TRD_PORDES" />
+          <ScalarProperty Name="TRD_IMPDES" ColumnName="TRD_IMPDES" />
+          <ScalarProperty Name="TRD_FECMOV" ColumnName="TRD_FECMOV" />
+          <ScalarProperty Name="PRO_KEYPRO" ColumnName="PRO_KEYPRO" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TF_TIENDAS_FORMAS_PAGO">
+      <EntityTypeMapping TypeName="SIRESPAModel.TF_TIENDAS_FORMAS_PAGO">
+        <MappingFragment StoreEntitySet="TF_TIENDAS_FORMAS_PAGO">
+          <ScalarProperty Name="TFP_KEYIDE" ColumnName="TFP_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="TFP_SEMUES" ColumnName="TFP_SEMUES" />
+          <ScalarProperty Name="TFP_FEULAC" ColumnName="TFP_FEULAC" />
+          <ScalarProperty Name="TFP_FECALT" ColumnName="TFP_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TH_TRAFICO_HISTORICO">
+      <EntityTypeMapping TypeName="SIRESPAModel.TH_TRAFICO_HISTORICO">
+        <MappingFragment StoreEntitySet="TH_TRAFICO_HISTORICO">
+          <ScalarProperty Name="THI_KEYIDE" ColumnName="THI_KEYIDE" />
+          <ScalarProperty Name="THI_FECINC" ColumnName="THI_FECINC" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="THI_DESCRI" ColumnName="THI_DESCRI" />
+          <ScalarProperty Name="THI_FEULAC" ColumnName="THI_FEULAC" />
+          <ScalarProperty Name="THI_FECALT" ColumnName="THI_FECALT" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_TIPO_PAGO_IMPORTE">
+      <EntityTypeMapping TypeName="SIRESPAModel.TP_TIPO_PAGO_IMPORTE">
+        <MappingFragment StoreEntitySet="TP_TIPO_PAGO_IMPORTE">
+          <ScalarProperty Name="TPI_KEYIDE" ColumnName="TPI_KEYIDE" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TPI_IMPTOT" ColumnName="TPI_IMPTOT" />
+          <ScalarProperty Name="TPI_FEULAC" ColumnName="TPI_FEULAC" />
+          <ScalarProperty Name="TPI_FECALT" ColumnName="TPI_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TR_TRANSACCIONES">
+      <EntityTypeMapping TypeName="SIRESPAModel.TR_TRANSACCIONES">
+        <MappingFragment StoreEntitySet="TR_TRANSACCIONES">
+          <ScalarProperty Name="TRA_KEYIDE" ColumnName="TRA_KEYIDE" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="CRE_KEYCRE" ColumnName="CRE_KEYCRE" />
+          <ScalarProperty Name="CLI_KEYCLI" ColumnName="CLI_KEYCLI" />
+          <ScalarProperty Name="EMP_KEYEMP" ColumnName="EMP_KEYEMP" />
+          <ScalarProperty Name="TRA_CANTID" ColumnName="TRA_CANTID" />
+          <ScalarProperty Name="TRA_SUBTOT" ColumnName="TRA_SUBTOT" />
+          <ScalarProperty Name="TRA_IMPIVA" ColumnName="TRA_IMPIVA" />
+          <ScalarProperty Name="TRA_IMPTOT" ColumnName="TRA_IMPTOT" />
+          <ScalarProperty Name="TRA_CODFAC" ColumnName="TRA_CODFAC" />
+          <ScalarProperty Name="TRA_FECSYS" ColumnName="TRA_FECSYS" />
+          <ScalarProperty Name="TRA_SERFAC" ColumnName="TRA_SERFAC" />
+          <ScalarProperty Name="TRA_FOLFAC" ColumnName="TRA_FOLFAC" />
+          <ScalarProperty Name="TRA_STSAPL" ColumnName="TRA_STSAPL" />
+          <ScalarProperty Name="TRA_FECMOV" ColumnName="TRA_FECMOV" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TR_TRANSFERENCIAS">
+      <EntityTypeMapping TypeName="SIRESPAModel.TR_TRANSFERENCIAS">
+        <MappingFragment StoreEntitySet="TR_TRANSFERENCIAS">
+          <ScalarProperty Name="TRF_KEYTRF" ColumnName="TRF_KEYTRF" />
+          <ScalarProperty Name="TTR_KEYTTR" ColumnName="TTR_KEYTTR" />
+          <ScalarProperty Name="TRN_KEYTRN" ColumnName="TRN_KEYTRN" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TIE_KEYTIR" ColumnName="TIE_KEYTIR" />
+          <ScalarProperty Name="TRF_NOGUIA" ColumnName="TRF_NOGUIA" />
+          <ScalarProperty Name="TRF_COMENT" ColumnName="TRF_COMENT" />
+          <ScalarProperty Name="TRF_FECSOL" ColumnName="TRF_FECSOL" />
+          <ScalarProperty Name="TRF_FECCAP" ColumnName="TRF_FECCAP" />
+          <ScalarProperty Name="TRF_FECENV" ColumnName="TRF_FECENV" />
+          <ScalarProperty Name="TRF_FECPRR" ColumnName="TRF_FECPRR" />
+          <ScalarProperty Name="TRF_FECREC" ColumnName="TRF_FECREC" />
+          <ScalarProperty Name="TRF_FECCAN" ColumnName="TRF_FECCAN" />
+          <ScalarProperty Name="TRF_FECALT" ColumnName="TRF_FECALT" />
+          <ScalarProperty Name="TRF_FEULAC" ColumnName="TRF_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TR_TRANSFERENCIAS_CONFIGURACION">
+      <EntityTypeMapping TypeName="SIRESPAModel.TR_TRANSFERENCIAS_CONFIGURACION">
+        <MappingFragment StoreEntitySet="TR_TRANSFERENCIAS_CONFIGURACION">
+          <ScalarProperty Name="TCF_KEYTCF" ColumnName="TCF_KEYTCF" />
+          <ScalarProperty Name="TTR_KEYTTR" ColumnName="TTR_KEYTTR" />
+          <ScalarProperty Name="TTI_TTIORI" ColumnName="TTI_TTIORI" />
+          <ScalarProperty Name="TTI_TTIDES" ColumnName="TTI_TTIDES" />
+          <ScalarProperty Name="TCF_FECALT" ColumnName="TCF_FECALT" />
+          <ScalarProperty Name="TCF_FEULAC" ColumnName="TCF_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TR_TRANSFERENCIAS_DETALLE">
+      <EntityTypeMapping TypeName="SIRESPAModel.TR_TRANSFERENCIAS_DETALLE">
+        <MappingFragment StoreEntitySet="TR_TRANSFERENCIAS_DETALLE">
+          <ScalarProperty Name="TDE_KEYIDE" ColumnName="TDE_KEYIDE" />
+          <ScalarProperty Name="TRF_KEYTRF" ColumnName="TRF_KEYTRF" />
+          <ScalarProperty Name="PRD_KEYPRD" ColumnName="PRD_KEYPRD" />
+          <ScalarProperty Name="RAN_KEYRAN" ColumnName="RAN_KEYRAN" />
+          <ScalarProperty Name="RAD_KEYTAL" ColumnName="RAD_KEYTAL" />
+          <ScalarProperty Name="TDE_CANSOL" ColumnName="TDE_CANSOL" />
+          <ScalarProperty Name="TDE_CANCAP" ColumnName="TDE_CANCAP" />
+          <ScalarProperty Name="TDE_CANENV" ColumnName="TDE_CANENV" />
+          <ScalarProperty Name="TDE_CANREC" ColumnName="TDE_CANREC" />
+          <ScalarProperty Name="TDE_CANCAN" ColumnName="TDE_CANCAN" />
+          <ScalarProperty Name="OCO_KEYOCO" ColumnName="OCO_KEYOCO" />
+          <ScalarProperty Name="CDV_KEYCDV" ColumnName="CDV_KEYCDV" />
+          <ScalarProperty Name="TDE_FECCAN" ColumnName="TDE_FECCAN" />
+          <ScalarProperty Name="TDE_FECALT" ColumnName="TDE_FECALT" />
+          <ScalarProperty Name="TDE_FEULAC" ColumnName="TDE_FEULAC" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TT_TICKET_TARJETA">
+      <EntityTypeMapping TypeName="SIRESPAModel.TT_TICKET_TARJETA">
+        <MappingFragment StoreEntitySet="TT_TICKET_TARJETA">
+          <ScalarProperty Name="TIT_KEYTIT" ColumnName="TIT_KEYTIT" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="TIT_NUMAUT" ColumnName="TIT_NUMAUT" />
+          <ScalarProperty Name="TIT_NUMTAR" ColumnName="TIT_NUMTAR" />
+          <ScalarProperty Name="TIT_IMPORT" ColumnName="TIT_IMPORT" />
+          <ScalarProperty Name="TIT_FECMOV" ColumnName="TIT_FECMOV" />
+          <ScalarProperty Name="TIT_REFFIN" ColumnName="TIT_REFFIN" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TT_TICKET_TARJETA_APARTADO">
+      <EntityTypeMapping TypeName="SIRESPAModel.TT_TICKET_TARJETA_APARTADO">
+        <MappingFragment StoreEntitySet="TT_TICKET_TARJETA_APARTADO">
+          <ScalarProperty Name="TIT_KEYTIT" ColumnName="TIT_KEYTIT" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="FPA_KEYFPA" ColumnName="FPA_KEYFPA" />
+          <ScalarProperty Name="MOA_KEYMOA" ColumnName="MOA_KEYMOA" />
+          <ScalarProperty Name="APA_KEYAPA" ColumnName="APA_KEYAPA" />
+          <ScalarProperty Name="TIT_NUMAUT" ColumnName="TIT_NUMAUT" />
+          <ScalarProperty Name="TIT_NUMTAR" ColumnName="TIT_NUMTAR" />
+          <ScalarProperty Name="TIT_IMPORT" ColumnName="TIT_IMPORT" />
+          <ScalarProperty Name="TIT_FECMOV" ColumnName="TIT_FECMOV" />
+          <ScalarProperty Name="TIT_REFFIN" ColumnName="TIT_REFFIN" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TT_TIENDA_TRANSPORTE">
+      <EntityTypeMapping TypeName="SIRESPAModel.TT_TIENDA_TRANSPORTE">
+        <MappingFragment StoreEntitySet="TT_TIENDA_TRANSPORTE">
+          <ScalarProperty Name="TIT_KEYIDE" ColumnName="TIT_KEYIDE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TRN_KEYTRN" ColumnName="TRN_KEYTRN" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+          <ScalarProperty Name="TIT_COSFLE" ColumnName="TIT_COSFLE" />
+          <ScalarProperty Name="TIT_FEULAC" ColumnName="TIT_FEULAC" />
+          <ScalarProperty Name="TIT_FECALT" ColumnName="TIT_FECALT" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VE_VALES_EMPLEADOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.VE_VALES_EMPLEADOS">
+        <MappingFragment StoreEntitySet="VE_VALES_EMPLEADOS">
+          <ScalarProperty Name="VAE_KEYVAE" ColumnName="VAE_KEYVAE" />
+          <ScalarProperty Name="EMP_KEYEMP" ColumnName="EMP_KEYEMP" />
+          <ScalarProperty Name="VAE_CREDITO" ColumnName="VAE_CREDITO" />
+          <ScalarProperty Name="VAE_CODIGO" ColumnName="VAE_CODIGO" />
+          <ScalarProperty Name="VAE_ARTICU" ColumnName="VAE_ARTICU" />
+          <ScalarProperty Name="VAE_CREART" ColumnName="VAE_CREART" />
+          <ScalarProperty Name="VAE_DESCRE" ColumnName="VAE_DESCRE" />
+          <ScalarProperty Name="VAE_DESCUE" ColumnName="VAE_DESCUE" />
+          <ScalarProperty Name="VAE_FECVIG" ColumnName="VAE_FECVIG" />
+          <ScalarProperty Name="VAE_FECALT" ColumnName="VAE_FECALT" />
+          <ScalarProperty Name="VAE_FEULAC" ColumnName="VAE_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VE_VENTAS_EMPLEADOS">
+      <EntityTypeMapping TypeName="SIRESPAModel.VE_VENTAS_EMPLEADOS">
+        <MappingFragment StoreEntitySet="VE_VENTAS_EMPLEADOS">
+          <ScalarProperty Name="VEE_KEYVEE" ColumnName="VEE_KEYVEE" />
+          <ScalarProperty Name="VAE_KEYVAE" ColumnName="VAE_KEYVAE" />
+          <ScalarProperty Name="TIE_KEYTIE" ColumnName="TIE_KEYTIE" />
+          <ScalarProperty Name="TRA_KEYTRA" ColumnName="TRA_KEYTRA" />
+          <ScalarProperty Name="TDO_KEYTDO" ColumnName="TDO_KEYTDO" />
+          <ScalarProperty Name="VEE_NOTFIR" ColumnName="VEE_NOTFIR" />
+          <ScalarProperty Name="VEE_FECALT" ColumnName="VEE_FECALT" />
+          <ScalarProperty Name="VEE_FEULAC" ColumnName="VEE_FEULAC" />
+          <ScalarProperty Name="EST_KEYEST" ColumnName="EST_KEYEST" />
+          <ScalarProperty Name="USR_KEYUSR" ColumnName="USR_KEYUSR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CA_PLANTILLAS_TALLA">
+      <EntityTypeMapping TypeName="SIRESPAModel.CA_PLANTILLAS_TALLA">
+        <MappingFragment StoreEntitySet="CA_PLANTILLAS_TALLA">
+          <ScalarProperty Name="PLT_KEYIDE" ColumnName="PLT_KEYIDE" />
+          <ScalarProperty Name="PLT_KEYPLT" ColumnName="PLT_KEYPLT" />
+          <ScalarProperty Name="PLT_KEYDIV" ColumnName="PLT_KEYDIV" />
+          <ScalarProperty Name="PLT_CVEDIV" ColumnName="PLT_CVEDIV" />
+          <ScalarProperty Name="PLT_VALTAL" ColumnName="PLT_VALTAL" />
+          <ScalarProperty Name="PLT_ESTATUS" ColumnName="PLT_ESTATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DT_TRANSFERENCIAS_DETALLE_HISTORICO">
+      <EntityTypeMapping TypeName="SIRESPAModel.DT_TRANSFERENCIAS_DETALLE_HISTORICO">
+        <MappingFragment StoreEntitySet="DT_TRANSFERENCIAS_DETALLE_HISTORICO">
+          <ScalarProperty Name="TDH_KEYIDE" ColumnName="TDH_KEYIDE" />
+          <ScalarProperty Name="TDH_CANSOL" ColumnName="TDH_CANSOL" />
+          <ScalarProperty Name="TDH_CANAPL" ColumnName="TDH_CANAPL" />
+          <ScalarProperty Name="TDH_CANCAN" ColumnName="TDH_CANCAN" />
+          <ScalarProperty Name="TDH_FEULAC" ColumnName="TDH_FEULAC" />
+          <ScalarProperty Name="TDH_FECALT" ColumnName="TDH_FECALT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="log_log">
+      <EntityTypeMapping TypeName="SIRESPAModel.log_log">
+        <MappingFragment StoreEntitySet="log_log">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="tabla" ColumnName="tabla" />
+          <ScalarProperty Name="trigg" ColumnName="trigg" />
+          <ScalarProperty Name="paso" ColumnName="paso" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

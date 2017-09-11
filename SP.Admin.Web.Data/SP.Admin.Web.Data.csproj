@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{289883AD-482B-4E3F-A316-C1403F7552B9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SP.Admin.Web.Data</RootNamespace>
+    <AssemblyName>SP.Admin.Web.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AD_PAR_APLINET_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AM_ANIOS_MESES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AP_APARTADOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AP_APARTADOS_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AP_APARTADOS_DETALLE_HISTORICO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AP_APARTADOS_HISTORICO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AS_ASISTENCIAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BC_BITACORA_CAMBIOS_PRECIOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BC_BITACORA_COSTO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BC_BIT_CAMBIOS_PRECIOS_TIENDA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BI_BITACORA_CAM_VENDEDOR.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BP_BITACORA_POLIZAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BP_BITACORA_PRECIO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_ANIOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_BANCOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CAJAS_REGISTRADORAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CATALOGOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CATALOGOS_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CAUSAS_DEVOLUCIONES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CAUSAS_NEGADOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CENTROS_COSTOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CIUDADES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CLIENTES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CLIENTES_FACTURACION.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CODIGOS_BARRA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_COLORES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_COMPANIA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CUENTAS_CONTABLES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_DEPARTAMENTOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_DEVOLUCIONES_CLIENTES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_DIVISIONES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_ESTADOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_ESTATUS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_FOLIOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_FORMAS_PAGO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_GASTOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_GENEROS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_HORARIOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_IMPUESTOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_INCIDENCIAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_LISTAS_PRECIOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_LISTAS_PRECIOS_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_LUGARES_ENTREGAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MARCAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MEDIOS_CLIENTE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MEDIOS_CLIENTE_FACTURACION.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MEDIOS_CONTACTO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MEDIOS_PROVEEDOR.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MEDIOS_TIENDA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MEDIOS_TRANSPORTES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MESES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MODELOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MONEDAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MONEDA_DENOMINACION.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MOTIVOS_CREDITO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_OBJETIVOS_MENSUALES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PAISES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PLANTILLAS_TALLA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PROCESOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PRODUCTOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PRODUCTOS_CVESAT.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PRODUCTOS_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PRODUCTOS_ESTATUS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PRODUCTOS_SIMILARES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PRODUCTO_IMAGENES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PRODUCTO_RANGO_TALLAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PRODUCTS_YISUS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PROMOCIONES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PROMOCIONES_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PROMOCIONES_FORMAS_PAGO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PROMOCIONES_RANGOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PROMOCIONES_RANGOS_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PROMOCIONES_TIENDAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PROMOCIONES_TIPO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PROVEEDORES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_PUESTOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_RANGOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_RANGOS_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_RANGOS_PORCENTAJES_COMISION.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_RESPUESTA_APLINET.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_SEMANAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_SILUETAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_SUPERVISORES_ZONA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TEMPORADAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TEXTO_TICKET.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIENDAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIENDAS_BANCOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIENDAS_CONFIGURACION.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPOS_CAMBIOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPOS_CLIENTES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPOS_DIAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPOS_ERRORES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPOS_HORARIOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPOS_MOVIMIENTOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPOS_ORDEN_COMPRA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPOS_PRODUCTOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPOS_TIENDA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPOS_TRANSFERENCIA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TIPO_DOCUMENTO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TRANSPORTES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_USOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_USUARIOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_ZONAS_GEOGRAFICAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CC_CORTE_CAJA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CD_CICLICO_DIFERENCIAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CD_CODIGOS_AUTORIZACION.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CD_CODIGO_DESCUENTO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CD_CORTE_CAJA_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CE_CREDITO_EMPLEADOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CF_CLIENTE_FRECUENTE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CF_ORDEN_COMPRA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CF_ORDEN_COMPRA_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CF_PARAMETRO_ORDEN_COMPRA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CP_CUENTAS_POR_PAGAR.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CP_CUENTAS_POR_PAGAR_HISTORICO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CR_CICLICO_RECAPITULACION.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CR_CICLICO_RESUMEN.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CT_CANCELACION_TICKET.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CU_CUPONES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dbSP.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbSP.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dbSP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dbSP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbSP.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DE_DEPOSITOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DP_DEVOLUCIONES_PROVEEDOR.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DP_DEVOLUCIONES_PROVEEDOR_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DT_TRANSFERENCIAS_DETALLE_HISTORICO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EE_ERROR_EMBARQUE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EP_ESTATUS_PROCESOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ER_ERRORES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FE_FOLIO_FACTURA_ELECTRONICA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_FLETES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FS_FOLIOS_SALIDA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GA_GASTOS_TIENDAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GA_GASTOS_TIENDAS_CONFIG.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IN_INCIDENCIAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IN_INVENTARIOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IN_INVENTARIOS_HISTORICO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="log_log.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MA_MOVIMIENTOS_APARTADO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MI_MOVIMIENTOS_INVENTARIO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MP_MOVIMIENTOS_PRODUCTO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NC_AUTORIZA_DEV_EFECTIVO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NC_NOTA_CREDITO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NE_NEGATIVOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OC_ORDENES_COMPRA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OC_ORDENES_COMPRA_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PA_PAR_APLINET.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PN_PRODUCTOS_NEGADOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RE_RECIBO_ELECTRONICO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RE_RECIBO_ELECTRONICO_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RF_REFERE_FACELEC.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RO_ROLES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SE_COMPANIAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SE_SEC_PROCESOS_ESTATUS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SI_SINCRONIZA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_SCRIPT_PUNTO_VENTA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TC_TIENDAS_CIERRE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TD_TIENDAS_DOCUMENTOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TD_TRANSACCIONES_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TF_TIENDAS_FORMAS_PAGO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TH_TRAFICO_HISTORICO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TP_TIPO_PAGO_IMPORTE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TR_TRANSACCIONES.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TR_TRANSFERENCIAS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TR_TRANSFERENCIAS_CONFIGURACION.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TR_TRANSFERENCIAS_DETALLE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TT_TICKET_TARJETA.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TT_TICKET_TARJETA_APARTADO.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TT_TIENDA_TRANSPORTE.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VE_VALES_EMPLEADOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VE_VENTAS_EMPLEADOS.cs">
+      <DependentUpon>dbSP.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SP.Admin.Web.Models\SP.Admin.Web.Models.csproj">
+      <Project>{ffefd834-f401-4e8d-98bb-e45de53cf881}</Project>
+      <Name>SP.Admin.Web.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="dbSP.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbSP.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="dbSP.edmx.diagram">
+      <DependentUpon>dbSP.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dbSP.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>dbSP.Context.cs</LastGenOutput>
+      <DependentUpon>dbSP.edmx</DependentUpon>
+    </Content>
+    <Content Include="dbSP.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbSP.edmx</DependentUpon>
+      <LastGenOutput>dbSP.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

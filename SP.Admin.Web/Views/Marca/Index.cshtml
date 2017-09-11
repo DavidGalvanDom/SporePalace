@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista de Marcas </h2>
+
+<button class="btn btn-default" id="btnNuevo">Nuevo</button>
+
+<!--Grid -->
+<div class="row">
+    <div class="bbGrid-Marcas">
+        <div class="loading">Cargando Marcas..</div>
+    </div>
+</div>
+
+<div  class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" id="marcaEditar">
+
+</div>
+
+@section scripts {
+    
+    <script src="~/Scripts/Marcas.js"></script>
+    
+ }

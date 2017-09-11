@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f8ccf6e150f410c881c9618d8a3a81e" Name="Diagram1">
+        <EntityTypeShape EntityType="SIRESPAModel.AD_PAR_APLINET_DETALLE" Width="1.5" PointX="5.25" PointY="292.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.AM_ANIOS_MESES" Width="1.5" PointX="8.25" PointY="292.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.AP_APARTADOS" Width="1.5" PointX="5.25" PointY="287.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.AP_APARTADOS_DETALLE" Width="1.5" PointX="10.5" PointY="280.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.AP_APARTADOS_DETALLE_HISTORICO" Width="1.5" PointX="5.25" PointY="297.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.AP_APARTADOS_HISTORICO" Width="1.5" PointX="8.25" PointY="287.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.AS_ASISTENCIAS" Width="1.5" PointX="8.25" PointY="298.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.BC_BIT_CAMBIOS_PRECIOS_TIENDA" Width="1.5" PointX="11.25" PointY="291.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.BC_BITACORA_CAMBIOS_PRECIOS" Width="1.5" PointX="11.25" PointY="286.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.BC_BITACORA_COSTO" Width="1.5" PointX="11.25" PointY="298.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.BI_BITACORA_CAM_VENDEDOR" Width="1.5" PointX="19.5" PointY="282.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.BP_BITACORA_POLIZAS" Width="1.5" PointX="8.25" PointY="302.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.BP_BITACORA_PRECIO" Width="1.5" PointX="14.25" PointY="293" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_ANIOS" Width="1.5" PointX="14.25" PointY="289.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_BANCOS" Width="1.5" PointX="14.25" PointY="297.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CAJAS_REGISTRADORAS" Width="1.5" PointX="14.25" PointY="283.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CATALOGOS" Width="1.5" PointX="14.25" PointY="302.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CATALOGOS_DETALLE" Width="1.5" PointX="25.5" PointY="284.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CAUSAS_DEVOLUCIONES" Width="1.5" PointX="5.25" PointY="282.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CAUSAS_NEGADOS" Width="1.5" PointX="5.25" PointY="303.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CENTROS_COSTOS" Width="1.5" PointX="8.25" PointY="282.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CIUDADES" Width="1.5" PointX="11.25" PointY="303.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CLIENTES" Width="1.5" PointX="19.5" PointY="305.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CLIENTES_FACTURACION" Width="1.5" PointX="57.75" PointY="319.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CODIGOS_BARRA" Width="1.5" PointX="68.25" PointY="301.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_COLORES" Width="1.5" PointX="51" PointY="288.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_COMPANIA" Width="1.5" PointX="13.5" PointY="306" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_CUENTAS_CONTABLES" Width="1.5" PointX="57" PointY="305" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_DEPARTAMENTOS" Width="1.5" PointX="16.5" PointY="301" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_DEVOLUCIONES_CLIENTES" Width="1.5" PointX="48" PointY="288.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_DIVISIONES" Width="1.5" PointX="51" PointY="307" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_ESTADOS" Width="1.5" PointX="54" PointY="286.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_ESTATUS" Width="1.5" PointX="3" PointY="278.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_FOLIOS" Width="1.5" PointX="33.75" PointY="307.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_FORMAS_PAGO" Width="1.5" PointX="71.25" PointY="283.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_GASTOS" Width="1.5" PointX="74.25" PointY="309.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_GENEROS" Width="1.5" PointX="54" PointY="308" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_HORARIOS" Width="1.5" PointX="16.5" PointY="283.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_IMPUESTOS" Width="1.5" PointX="59" PointY="299.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_INCIDENCIAS" Width="1.5" PointX="59" PointY="290.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_LISTAS_PRECIOS" Width="1.5" PointX="57" PointY="284.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_LISTAS_PRECIOS_DETALLE" Width="1.5" PointX="48" PointY="291.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_LUGARES_ENTREGAS" Width="1.5" PointX="22.5" PointY="305.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MARCAS" Width="1.5" PointX="60" PointY="296.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MEDIOS_CLIENTE" Width="1.5" PointX="24.75" PointY="306.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MEDIOS_CLIENTE_FACTURACION" Width="1.5" PointX="60" PointY="304.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MEDIOS_CONTACTO" Width="1.5" PointX="60" PointY="285.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MEDIOS_PROVEEDOR" Width="1.5" PointX="36.75" PointY="286" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MEDIOS_TIENDA" Width="1.5" PointX="36.75" PointY="307.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MEDIOS_TRANSPORTES" Width="1.5" PointX="71.25" PointY="297.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MESES" Width="1.5" PointX="60" PointY="309" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MODELOS" Width="1.5" PointX="48" PointY="284.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MONEDA_DENOMINACION" Width="1.5" PointX="79.5" PointY="301.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MONEDAS" Width="1.5" PointX="51" PointY="282.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_MOTIVOS_CREDITO" Width="1.5" PointX="62" PointY="299.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_OBJETIVOS_MENSUALES" Width="1.5" PointX="22.5" PointY="283.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PAISES" Width="1.5" PointX="51" PointY="311.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PROCESOS" Width="1.5" PointX="0.75" PointY="294.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PRODUCTO_IMAGENES" Width="1.5" PointX="79.5" PointY="297" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PRODUCTO_RANGO_TALLAS" Width="1.5" PointX="48" PointY="302" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PRODUCTOS" Width="1.5" PointX="74.25" PointY="294" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PRODUCTOS_CVESAT" Width="1.5" PointX="54" PointY="283.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PRODUCTOS_DETALLE" Width="1.5" PointX="39.75" PointY="291.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PRODUCTOS_ESTATUS" Width="1.5" PointX="57" PointY="311.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PRODUCTOS_SIMILARES" Width="1.5" PointX="79.5" PointY="293" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PRODUCTS_YISUS" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PROMOCIONES" Width="1.5" PointX="63" PointY="292.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PROMOCIONES_DETALLE" Width="1.5" PointX="51" PointY="291.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PROMOCIONES_FORMAS_PAGO" Width="1.5" PointX="79.5" PointY="289" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PROMOCIONES_RANGOS" Width="1.5" PointX="74.25" PointY="304.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PROMOCIONES_RANGOS_DETALLE" Width="1.5" PointX="54" PointY="296.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PROMOCIONES_TIENDAS" Width="1.5" PointX="39.75" PointY="307.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PROMOCIONES_TIPO" Width="1.5" PointX="54" PointY="312.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PROVEEDORES" Width="1.5" PointX="28.5" PointY="294.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PUESTOS" Width="1.5" PointX="63" PointY="288" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_RANGOS" Width="1.5" PointX="63" PointY="305" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_RANGOS_DETALLE" Width="1.5" PointX="71.25" PointY="307.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_RANGOS_PORCENTAJES_COMISION" Width="1.5" PointX="42.75" PointY="302.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_RESPUESTA_APLINET" Width="1.5" PointX="48" PointY="312.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_SEMANAS" Width="1.5" PointX="63" PointY="282.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_SILUETAS" Width="1.5" PointX="60" PointY="282.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_SUPERVISORES_ZONA" Width="1.5" PointX="63" PointY="309" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TEMPORADAS" Width="1.5" PointX="48" PointY="279.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TEXTO_TICKET" Width="1.5" PointX="42.75" PointY="308.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIENDAS" Width="1.5" PointX="28.5" PointY="302.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIENDAS_BANCOS" Width="1.5" PointX="25.5" PointY="296.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIENDAS_CONFIGURACION" Width="1.5" PointX="42.75" PointY="289.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPO_DOCUMENTO" Width="1.5" PointX="57" PointY="279.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPOS_CAMBIOS" Width="1.5" PointX="68.25" PointY="312" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPOS_CLIENTES" Width="1.5" PointX="60" PointY="313.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPOS_DIAS" Width="1.5" PointX="63" PointY="313.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPOS_ERRORES" Width="1.5" PointX="65" PointY="300.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPOS_HORARIOS" Width="1.5" PointX="51" PointY="315.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPOS_MOVIMIENTOS" Width="1.5" PointX="54" PointY="279" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPOS_ORDEN_COMPRA" Width="1.5" PointX="57" PointY="315.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPOS_PRODUCTOS" Width="1.5" PointX="66" PointY="296.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPOS_TIENDA" Width="1.5" PointX="66" PointY="291.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TIPOS_TRANSFERENCIA" Width="1.5" PointX="66" PointY="303.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_TRANSPORTES" Width="1.5" PointX="66" PointY="286.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_USOS" Width="1.5" PointX="66" PointY="308.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_USUARIOS" Width="1.5" PointX="45.75" PointY="278.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_ZONAS_GEOGRAFICAS" Width="1.5" PointX="66" PointY="282" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CC_CORTE_CAJA" Width="1.5" PointX="22.5" PointY="289.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CD_CICLICO_DIFERENCIAS" Width="1.5" PointX="54" PointY="302" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CD_CODIGO_DESCUENTO" Width="1.5" PointX="68.25" PointY="306.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CD_CODIGOS_AUTORIZACION" Width="1.5" PointX="66" PointY="312.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CD_CORTE_CAJA_DETALLE" Width="1.5" PointX="30.75" PointY="282.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CE_CREDITO_EMPLEADOS" Width="1.5" PointX="30.75" PointY="288.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CF_CLIENTE_FRECUENTE" Width="1.5" PointX="30.75" PointY="306.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CF_ORDEN_COMPRA" Width="1.5" PointX="48" PointY="316" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CF_ORDEN_COMPRA_DETALLE" Width="1.5" PointX="68.25" PointY="279.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CF_PARAMETRO_ORDEN_COMPRA" Width="1.5" PointX="51" PointY="278.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CP_CUENTAS_POR_PAGAR" Width="1.5" PointX="19.5" PointY="288.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CP_CUENTAS_POR_PAGAR_HISTORICO" Width="1.5" PointX="19.5" PointY="294.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CR_CICLICO_RECAPITULACION" Width="1.5" PointX="77.25" PointY="290.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CR_CICLICO_RESUMEN" Width="1.5" PointX="77.25" PointY="302.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CT_CANCELACION_TICKET" Width="1.5" PointX="33.75" PointY="294.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CU_CUPONES" Width="1.5" PointX="63" PointY="279.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.DE_DEPOSITOS" Width="1.5" PointX="25.5" PointY="300.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.DP_DEVOLUCIONES_PROVEEDOR" Width="1.5" PointX="36.75" PointY="301.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.DP_DEVOLUCIONES_PROVEEDOR_DETALLE" Width="1.5" PointX="16.5" PointY="288.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.EE_ERROR_EMBARQUE" Width="1.5" PointX="30.75" PointY="294.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.EP_ESTATUS_PROCESOS" Width="1.5" PointX="54" PointY="316" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.ER_ERRORES" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.FE_FOLIO_FACTURA_ELECTRONICA" Width="1.5" PointX="68.25" PointY="284.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.FL_FLETES" Width="1.5" PointX="60" PointY="278.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.FS_FOLIOS_SALIDA" Width="1.5" PointX="66" PointY="278.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.GA_GASTOS_TIENDAS" Width="1.5" PointX="22.5" PointY="295.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.GA_GASTOS_TIENDAS_CONFIG" Width="1.5" PointX="22.5" PointY="300.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.IN_INCIDENCIAS" Width="1.5" PointX="71.25" PointY="288.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.IN_INVENTARIOS" Width="1.5" PointX="50.25" PointY="318.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.IN_INVENTARIOS_HISTORICO" Width="1.5" PointX="48" PointY="308.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.MA_MOVIMIENTOS_APARTADO" Width="1.5" PointX="19.5" PointY="300.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.MI_MOVIMIENTOS_INVENTARIO" Width="1.5" PointX="68.25" PointY="289.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.MP_MOVIMIENTOS_PRODUCTO" Width="1.5" PointX="54" PointY="291.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.NC_AUTORIZA_DEV_EFECTIVO" Width="1.5" PointX="27.75" PointY="289.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.NC_NOTA_CREDITO" Width="1.5" PointX="33.75" PointY="287.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.NE_NEGATIVOS" Width="1.5" PointX="51" PointY="301.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.OC_ORDENES_COMPRA" Width="1.5" PointX="39.75" PointY="299.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.OC_ORDENES_COMPRA_DETALLE" Width="1.5" PointX="42" PointY="294" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.PA_PAR_APLINET" Width="1.5" PointX="56.25" PointY="299.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.PN_PRODUCTOS_NEGADOS" Width="1.5" PointX="16.5" PointY="305.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.RE_RECIBO_ELECTRONICO" Width="1.5" PointX="39.75" PointY="283.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.RE_RECIBO_ELECTRONICO_DETALLE" Width="1.5" PointX="57" PointY="294.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.RF_REFERE_FACELEC" Width="1.5" PointX="30.75" PointY="300.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.RO_ROLES" Width="1.5" PointX="27.75" PointY="284.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.SE_COMPANIAS" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.SE_SEC_PROCESOS_ESTATUS" Width="1.5" PointX="3" PointY="311.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.SI_SINCRONIZA" Width="1.5" PointX="30.75" PointY="374.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.SP_SCRIPT_PUNTO_VENTA" Width="1.5" PointX="60" PointY="317.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TC_TIENDAS_CIERRE" Width="1.5" PointX="56.25" PointY="289.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TD_TIENDAS_DOCUMENTOS" Width="1.5" PointX="63" PointY="316.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TD_TRANSACCIONES_DETALLE" Width="1.5" PointX="33.75" PointY="299.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TF_TIENDAS_FORMAS_PAGO" Width="1.5" PointX="48" PointY="296.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TH_TRAFICO_HISTORICO" Width="1.5" PointX="71.25" PointY="294" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TP_TIPO_PAGO_IMPORTE" Width="1.5" PointX="36.75" PointY="295.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TR_TRANSACCIONES" Width="1.5" PointX="25.5" PointY="288" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TR_TRANSFERENCIAS" Width="1.5" PointX="77.25" PointY="295.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TR_TRANSFERENCIAS_CONFIGURACION" Width="1.5" PointX="74.25" PointY="288.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TR_TRANSFERENCIAS_DETALLE" Width="1.5" PointX="16.5" PointY="293.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TT_TICKET_TARJETA" Width="1.5" PointX="51" PointY="296.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TT_TICKET_TARJETA_APARTADO" Width="1.5" PointX="33.75" PointY="282.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.TT_TIENDA_TRANSPORTE" Width="1.5" PointX="71.25" PointY="302.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.VE_VALES_EMPLEADOS" Width="1.5" PointX="69" PointY="296.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.VE_VENTAS_EMPLEADOS" Width="1.5" PointX="36.75" PointY="290.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.CA_PLANTILLAS_TALLA" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.DT_TRANSFERENCIAS_DETALLE_HISTORICO" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIRESPAModel.log_log" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_AD_PAR_APLINET_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_AD_PAR_APLINET_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.PA_PAR_LINET_AD_PAR_LINET_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.AM_ANIOS_MES_GA_GASTOS_TDAS_CO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ANIOS_AM_ANIOS_MESES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_AM_ANIOS_MESES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MESES_AM_ANIOS_MESES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_AM_ANIOS_MESES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.AP_APARTADOS_AP_APARTADOS_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.AP_APARTADOS_MA_MOVIMIENTOS_APARTADO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CAJAS_REGISTRADORAS_AP_APARTADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CLIENTES_AP_APARTADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_AP_APARTADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPO_DOCUMENTO_AP_APARTADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_AP_APARTADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_AP_APARTADOS_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTO_RANGO_TALLAS_AP_APARTADOS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_AP_APARTADOS_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_VTA_AP_APARTADOS_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.AP_APARTA_HIST_AP_APARTA_DET_H" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_AP_APARTA_DET_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_DETALLE_AP_APARTA_DET_HIS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_AP_APARTADOS_DET_H" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CLIENTES_AP_APARTADOS_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_AP_APARTADOS_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_AP_APARTADOS_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_AP_APARTADOS_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_AS_ASISTENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_AS_ASISTENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_AS_ASISTENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_ASISTE_AS_ASIETNCIA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CAJAS_REGISTRADORAS_BC_BIT_CAMBIOS_PRECIOS_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_BC_BIT_CAMBIOS_PRECIOS_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_AUT_BC_BIT_CAMBIOS_PRECIOS_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_BC_BIT_CAMBIOS_PRECIOS_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TD_TRANSACCIONES_DETALLE_BC_BIT_CAMBIOS_PRECIOS_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_BC_BIT_CAMBIOS_PREC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_LISTAS_PRECIOS_BC_BIT_CAMB_PREC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_DETALLE_BC_BIT_CAMB_PREC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_BC_BIT_CAMB_PREC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_BC_BIT_COSTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_DETALLE_BC_BIT_COSTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_BC_BIT_COSTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.OC_ORDENES_COMPRA_BC_BIT_COSTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CAJAS_REGISTRADORAS_BI_BITACORA_CAM_VENDEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_ANT_BI_BITACORA_CAM_VENDEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_AUT_BI_BITACORA_CAM_VENDEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_NVO_BI_BITACORA_CAM_VENDEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_BP_BIT_POLIZAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_BP_BIT_POLIZAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_BP_BIT_POLIZAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_BP_BITACORA_PRECIO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_BP_BITACORA_PRECIO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ANIOS_CA_OBJTIVOS_MENSUALES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_ANIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_ANIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_BANCOS_CA_TIENDAS_BANCOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_BANCOS_DE_DEPOSITOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CTAS_CONTABLES_CA_BANCOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_BANCOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_BANCOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CAJAS_REG_GA_GASTOS_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CAJAS_REG_TR_TRANSACCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CAJAS_REGISTRADORAS_CC_CORTE_CAJA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_CAJAS_REGIS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_CAJAS_REGIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_CAJAS_REGIS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CATALOGOS_CA_CATALOGOS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_CATALOGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_CATALOGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CATALOGOS_DET_CT_CANCELACION_TCK" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_CATALOGOS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_CATALOGOS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CAUSAS_DEVOLUCIONES_DP_DEVOLUCIONES_PROVEEDOR_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CAUSAS_DEVOLUCIONES_NC_NOTA_CREDITO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CAUSAS_DEVOLUCIONES_TD_TRANSFER_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_CAUSAS_DEV" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_CAUSAS_DEV" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CAUSAS_NEGADOS_PN_PRD_NEGA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_CAUSAS_NEGADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_CAUSAS_NEGADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CENTROS_COST_CP_CTAS_PAGAR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CENTROS_COSTOS_CA_HORARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CENTROS_COSTOS_RO_ROLES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CTRO_COSTOS_CP_CTAS_PAGAR_H" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_DEPARTAMENTOS_CA_CENTROS_COSTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_CENTROS_COSTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_CENTROS_COSTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_CENTROS_COSTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CIUDADES_CA_CLIENTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CIUDADES_CA_COMPANIA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CIUDADES_CA_LUGARES_ENTREGA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CIUDADES_CA_PROVEEDORES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CIUDADES_CA_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CIUDADES_CA_TRANSPORTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTADOS_CA_CIUDADES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_CIUDADES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_CIUDADES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CLIENTES_CA_MEDIOS_CONTACTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CLIENTES_CF_CLIENTE_FRECUENTE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CLIENTES_TR_TRANSACCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_CLIENTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_CLIENTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CLIENTES_FACTURACION_CA_MEDIOS_CONTACTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_CODIGOS_BARRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTO_RANGO_TALLAS_CA_CODIGOS_BARRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_CODIGOS_BARRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_COLORES_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_COLORES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_COLORES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_COMPANIA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_COMPANIA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CTAS_CONT_CA_FORMAS_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_CUENTAS_CONTABLES_CA_GASTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.FK_CTA_CONTABLE_ESTATUS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.FK_CTA_CONTABLE_MONEDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.FK_CTA_CONTABLE_USR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_DEPTOS_EE_ERROR_EMBARQUE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_DEPARTAMENTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_DEPTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_DEV_CLIENTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_DEV_CLIENTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_DIVISIONES_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_DIVISIONES_CR_CICLICO_RESUMEN" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_DIVISIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_DIVISIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_ESTADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PAISES_CA_ESTADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_ESTADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_EMPLEADOS_CE_CREDITO_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS__CA_PROMOCIONES_FORMAS_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_DET_LISTAS_PREC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_DETALLE_RANGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_FOLIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_FORMAS_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_GASTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_GENEROS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_HORARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_IMPUESTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_INCIDENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_LISTAS_PRECIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_LUGARES_ENTREGAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MARCAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MEDIOS_CLIENTE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MEDIOS_CLIENTE_FACTURACION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MEDIOS_CONTACTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MEDIOS_PROVEEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MEDIOS_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MEDIOS_TRASPORTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MESES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MODELOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MONEDA_DENOMINACION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MONEDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_MOTIVOS_CREDITO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_OBJVOS_MENSUALES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PAISES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PROD_PROV" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PRODUCT_SIMILAR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PRODUCTO_IMAGENES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PRODUCTO_RAN_TALLAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PRODUCTOS_CVESAT" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PRODUCTOS_ESTATUS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PROM_RANGOS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PROMOCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PROMOCIONES_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PROMOCIONES_RANGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PROMOCIONES_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PROMOCIONES_TIPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PROVEEDORES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PUESTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_RANGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_RANGOS_PORCENTAJE_COMISION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_RESP_APLINET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_SEMANAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_SILUETAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_SUPERVISORES_ZONA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TEMPORADAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TEXTO_TICKET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIENDAS_BANCOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIENDAS_CONFIG" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_CAMBIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_CLIENTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_DIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_DOCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_ERRORES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_HORARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_MOVTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_ORDEN_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TIPOS_TRANSFERENCIA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_TRANSPORTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_USOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_USUARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_ZONAS_GEOGRAF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CC_CORTE_CAJA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CD_CICLICO_DIF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CD_CODIGO_DESCUENTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CD_CODIGOS_AUTORIZACION_1" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CD_CODIGOS_AUTORIZACION_2" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CD_CORTE_CAJA_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CF_CLIENTE_FRECUENTE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CF_ORDEN_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CF_PARAMETRO_ORDEN_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CP_CTAS_PAGAR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CP_CTAS_PAGAR_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CR_CICLICO_RECAP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CR_CICLICO_RESUMEN" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CT_CANCELACION_TCK" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CU_CUPONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_DE_DEPOSITOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_DP_DEVOLUCIONES_PROVEEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_DP_DEVOLUCIONES_PROVEEDOR_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_EE_ERROR_EMBARQUE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_EP_EST_PROCESOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_FE_FOLIO_FACTURA_ELECTRONICA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_FL_FLETES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_FS_FOLIOS_SALIDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_GA_GASTOS_TDAS_CONF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_GA_GASTOS_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_IN_INCIDENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_MA_MOVIMIENTOS_APARTADO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_MI_MOVIMIENTOS_INVENTARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_MP_MOVIMIENTOS_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_NC_NOTA_CREDITO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_NE_NEGATIVOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_OC_OC_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_OC_ORDENES_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_OCF_OCF_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_PA_PAR_APLINET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_PN_PRDTOS_NEGADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_RE_REC_ELECT_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_RE_REC_ELECTRONICO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_RF_REFERE_FACELEC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_RO_ROLES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_SP_SCRIPT_PTO_VTA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TC_TIENDAS_CIERRE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TD_TDAS_DOCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TD_TRANSACCIONES_D" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TD_TRANSFER_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TF_TDAS_FRMS_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TH_TRAFICO_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TP_TIP_PAGO_IMPORTE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TR_TRANSACCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TR_TRANSFERENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TR_TRANSFERENCIAS_CONFIGURACION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TT_TDA_TRANSP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TT_TICKET_TARJETA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_TT_TICKET_TARJETA_APARTADO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_VE_VALES_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_VE_VENTAS_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROCESOS_CA_ESTATUS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_FOLIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPO_DOCTO_CA_FOLIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_FOLIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_FORMAS_PAGO_CA_MONEDA_DENOMINACION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_FORMAS_PAGO_CA_PROMOCIONES_FORMAS_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_FORMAS_PAGO_CE_CREDITO_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_FORMAS_PAGO_TC_TIENDAS_CIERRE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_FORMAS_PAGO_TP_TIP_PAGO_IMP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_FRMS_PAGO_TF_TDAS_FRM_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_FORMAS_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_GASTOS_GA_GASTOS_TDAS_CONF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_GASTOS_GA_GASTOS_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_GASTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_GENEROS_CA_CICLICO_RECAP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_GENEROS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_GENEROS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_HORARIOS_RO_ROLES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_HORARIOS_CA_HORARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_HORARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_IMPUESTOS_CA_PROVEEDORES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_IMPUESTOS_CA_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_IMPUESTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_INCIDENCIAS_IN_INCIDENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_INCIDENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_LIST_PREC_CA_DET_LIST_PREC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_LISTAS_PRECIOS_CA_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_LISTAS_PRECIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_DETALLE_CA_DET_LISTAS_PRE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_DET_LISTAS_PREC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_LUGARES_ENTREGA_OC_OC_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_LUGARES_ENTREGA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MARCAS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MARCAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MEDIOS_CONTACTO_CA_MEDIOS_CLIENTE_" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MEDIOS_CLIENTE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MEDIOS_CONTACTO_CA_MEDIOS_CLIENTE_FACTURACION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MEDIOS_CLIENTE_FACTURACION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MEDIOS_CONTACTO_CA_MEDIOS_PROVEEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MEDIOS_CONTACTO_CA_MEDIOS_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MEDIOS_CONTACTO_CA_MEDIOS_TRANSPORTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MEDIOS_CONTACTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROVEEDORES_CA_MEDIOS_PROVEEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MEDIOS_PROVEEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_MEDIOS_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MEDIOS_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TRANSPORTES_CA_MEDIOS_TRANSPORTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MEDIOS_TRANPORTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MESES_CA_OBJTVOS_MENSUALES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MESES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MODELOS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MODELOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MONEDA_DENOMINACION_CD_CORTE_CAJA_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MONEDAS_CA_MONEDA_DENOMINACION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MONEDA_DENOMINACION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MONEDAS_CA_TIPOS_CAMBIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MONEDAS_DE_DEPOSITOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MONEDAS_OC_ORDENES_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MONEDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_MOTIVOS_CREDITO_CE_CREDITO_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PUESTOS_CA_MOTIVOS_CREDITO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_MOTIVOS_CREDITO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_OBJETIVOS_MEN" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_OBJVOS_MENSUAL" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PAISES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ESTATUS_CA_PROCESOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROCESOS_EP_EST_PROCESOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROCESOS_SE_SEC_PROC_EST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_CA_PRODUCTO_IMAGENES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PRDTOS_IMAGENES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROD_RAN_DET_TD_TRANSFERENCIAS_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROD_RAN_TALL_IN_INVENTARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROD_RAN_TALL_TD_TRANS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROD_RAN_TALLAS_PN_PROD_NEGADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTO_RAN_TALLA_DP_DEVOLUCIONES_PROVEEDOR_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTO_RAN_TALLA_OC_OC_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTO_RANGO_TALL_MI_MOVTOS_INVENTARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTO_RANGO_TALLA_CD_CODIGO_DESCUENTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_DETALLE_CA_PRODUCTO_RANGO_TALLAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_RANGOS_DETALLE_CA_PRODUCTO_RANGO_TALLAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PRODUCTOS_RAN_TALLAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_CA_PRODUCTOS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_CA_PRODUCTOS_SIMILARES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_CA_PRODUCTOS_SIMILARES2" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_CVESAT_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_ESTATUS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_RANGOS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_SILUETAS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TEMPORADAS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_PRDTOS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USOS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PRODUCTOS_CVESAT" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_DETALLE_CA_PROM_RANGOS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_DETALLE_CA_PROMOCIONES_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_DETALLE_CD_CICLICO_DIF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_DETALLE_IN_INVENTARIOS_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PRODUCTOS_DETALLE_MP_MOVIMIENTOS_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROVEEDORES_CA_PROD_PROV" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PROD_PROV" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PRODUCTOS_ESTATUS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PRODUCT_SIMILAR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROMOCIONES_CA_PROM_RANGOS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROMOCIONES_CA_PROMO_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROMOCIONES_CA_PROMOCIONES_FORMAS_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROMOCIONES_CA_PROMOCIONES_RANGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROMOCIONES_CA_PROMOCIONES_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROMOCIONES_TD_TRANSAC_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROMOCIONES_TIPO_CA_PROMOCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIP_CLIENTES_CA_PROMOCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PROMOCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PROMOCIONES_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PROMOCIONES_FORMAS_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PROMOCIONES_RANGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PROM_RANGOS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_PROMOCIONES_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PROMOCIONES_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PROMOCIONES_TIPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROVE_CP_CUENTAS_POR_PAGAR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROVEEDORES_CP_CTAS_PAGAR_H" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROVEEDORES_DP_DEVOLUCIONES_PROVEEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROVEEDORES_OC_ORDENES_COMP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PROVEEDORES_RE_REC_ELECTRO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PROVEEDORES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PUESTOS_CA_RANGOS_PORCENTAJE_COMISION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_PUESTOS_CA_USUARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_PUESTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_RANGOS_CA_DETALLE_RANGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_RANGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_RANGOS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_RANGOS_PORCENTAJE_COMISION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_RANGOS_PORCENTAJE_COMISION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_RESP_APLINET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_SEMANAS_CD_CICLICO_DIF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_SEMANAS_CR_CICLICO_RECAPI" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_SEMANAS_CR_CICLICO_RESUMEN" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_SEMANAS_RO_ROLES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_SEMANAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_SILUETAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_SUPERVISORES_ZONA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS2_CA_SUPERVISORES_ZONA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ZONAS_GEOGRAF_CA_SUPERVISORES_ZONA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TEMPORADAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_TEXTO_TICKET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPO_DOCUMENTO_CA_TEXTO_TICKET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TEXTO_TICKET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TDAS_TF_TDAS_FRMS_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_TIENDAS_BANCOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_TIENDAS_CONFIG" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CA_USUARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CD_CICLICO_DIF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CD_CODIGO_DESCUENTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CR_CICLICO_RECAP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CR_CICLICO_RESUMEN" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_CT_CANCELACION_TCK" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_DE_DEPOSITOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_E_TR_TRANSFERENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_FE_FOLIO_FACTURA_ELECTRONICA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_GA_GASTOS_TDAS_CONF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_GA_GASTOS_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_IN_INVENTARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_IN_INVENTARIOS_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_MI_MOVTOS_INV" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_MP_MOVIMIENTOS_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_OC_OC_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_PN_PRODUCTOS_NEGADO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_R_TR_TRANSFERENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_SI_SINCRONIZA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_SP_SCRIPT_PTO_VTA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_TD_TDAS_DOCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_TP_TIPO_PAGO_IMPORT" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIENDAS_TT_TDA_TRANSPORTE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_TIENDA_CA_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ZONAS_GEOGRAFIC_CA_TIENDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIENDAS_BANCOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIENDAS_CONFIG" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPO_DOCTO_CT_CANCELACION_TCK" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPO_DOCUMENTO_FE_FOLIO_FACTURA_ELECTRONICA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPO_DOCUMENTO_TC_TIENDAS_CIERRE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPO_DOCUMENTO_TR_TRANSACCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_DOCTO_TH_TRAFICO_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPO_DOCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPOS_CAMBIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPOS_CLIENTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_DIAS_RO_ROLES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPOS_DIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIP_ERR_EE_ERR_EMBARQUE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPOS_ERRORES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPOS_HORARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_MOVTOS_MI_MOVTOS_INV" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPOS_MOVTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_ORDEN_COMPRA_OC_ORDENES_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPOS_ORDEN_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPOS_PRODUCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_TIENDA_TR_TRANSFERENCIAS_CONFIGURACION_1" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_TIENDA_TR_TRANSFERENCIAS_CONFIGURACION_2" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPOS_TIENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_TRANSFERENCIA_TR_TRANSFERENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TIPOS_TRANSFERENCIA_TR_TRANSFERENCIAS_CONFIGURACION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TIPOS_TRANSFERENCIA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TRANSPORTES_DP_DEVOLUCIONES_PROVEEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TRANSPORTES_TR_TRANSFERENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TRANSPORTES_TT_TIENDA_TRANSP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_TRANSPORTES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_USOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_EMPLEADOS_TR_TRANSACCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USU_CP_CTAS_POR_PAGAR_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USU_GA_GASTOS_TDAS_CONFIG" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIO_CRED_CE_CREDITO_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_APL_CD_CODIGO_DESCUENTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_AUT_CC_CORTE_CAJA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CA_ZONAS_GEOGRAF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CC_CORTE_CAJA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CD_CICLICO_DIF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CD_CODIGO_DESCUENTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CD_CODIGOS_AUTORIZACION_1" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CD_CODIGOS_AUTORIZACION_2" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CD_CORTE_CAJA_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CE_CREDITOS_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CF_CLIENTE_FRECUENTE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CF_ORDEN_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CF_PARAMETRO_ORDEN_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CP_CUENTAS_PAGAR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CR_CICLICO_RECAP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CR_CICLICO_RESUMEN" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CT_CANCELACION_TCK" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_CU_CUPONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_DE_DEPOSITOS1" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_DE_DEPOSITOS2" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_DP_DEVOLUCIONES_PROVEEDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_DP_DEVOLUCIONES_PROVEEDOR_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_EE_ERROR_EMBARQUE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_EP_ESTATUS_PROCESO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_FE_FOLIO_FACTURA_ELECTRONICA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_FL_FLETES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_FS_FOLIOS_SALIDA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_GA_GASTOS_TDAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_IN_INCIDENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_MA_MOVIMIENTOS_APARTADO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_MI_MOVTOS_INV" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_MP_MOVIMIENTOS_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_NC_NOTA_CREDITO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_NE_NEGATIVOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_OC_OC_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_OC_ORDENES_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_OCF_OCF_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_PA_PAR_APLINET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_PN_PRDTOS_NEGADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_RE_REC_ELECT_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_RE_RECIBO_ELECTRONICO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_RF_REFERE_FACELEC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_RO_ROLES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_SP_SCRIPT_PTO_VTA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TC_TIENDAS_CIERRE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TD_TDAS_DOCTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TD_TRANS_DET_USU" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TD_TRANS_DET_VTA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TD_TRANSFER_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TF_TDAS_FRMS_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TH_TRAFICO_HIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TP_TIPO_PAGO_IMP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TR_TRANSACCIONES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TR_TRANSFERENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TR_TRANSFERENCIAS_CONFIGURACION" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TT_TDA_TRANSP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TT_TICKET_TARJETA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_TT_TICKET_TARJETA_APARTADO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_VE_VALES_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS_VE_VENTAS_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_USUARIOS1_IN_INCIDENCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.EMPLEADO_VE_VALES_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CC_CORTE_CAJA_CD_CORTE_CAJA_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TF_TIENDAS_FORMAS_PAGO_CC_CORTE_CAJA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TF_TIENDAS_FORMAS_PAGO_CD_CORTE_CAJA_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TR_TRANSACCIONES_CE_CREDITO_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CF_ORDEN_COMPRA_OC_ORDENES_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CF_ORDEN_COMPRA_OCF_OCF_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CF_ORDEN_COMPRA_DETALLE_CF_PARAMETRO_ORDEN_COMPRA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TR_TRANSACC_CT_CANCELACION_TCK" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.MA_MOVIMIENTOS_APARTADO_TT_TICKET_TARJETA_APARTADO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TF_TIENDAS_FORMAS_PAGO_MA_MOVIMIENTOS_APARTADO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TR_TRANSACCIONES_NC_AUTORIZA_DEV_EFECTIVO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TR_TRANSACCIONES_NC_NOTA_CRED" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TD_TRANSACC_DETALL_NE_NEGATIVOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_ORDENES_COMPRA_TD_TRANSFER_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.OC_ORDENES_COMPRA_OC_OC_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.OC_OC_DETALLE_RE_RE_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TF_TIENDAS_FORMAS_PAGO_PA_PAR_APLINET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.RE_REC_ELECT_RE_REC_ELECT_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TR_TRANSACCIONES_RF_REFERE_FACELEC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TF_TIENDAS_FORMAS_PAGO_TC_TIENDAS_CIERRE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TR_TRANSAC_TD_TRANSAC_DET" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.CA_TRANSAC_TP_TIP_PAGO_IMPORTE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TP_TIPO_PAGO_IMP_TT_TICKET_TARJETA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TR_TRANSACCIONES_VE_VENTAS_EMPLEADOS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.TR_TRANSFERENCIAS_TD_TRANSFERENCIAS_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIRESPAModel.VE_VALES_EMPLEADOS_VE_VENTAS_EMPLEADOS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,5 @@
+c:\users\david galvan\documents\visual studio 2015\Projects\SP.Admin.Web\SP.Admin.Web.Models\bin\Debug\SP.Admin.Web.Models.dll
+c:\users\david galvan\documents\visual studio 2015\Projects\SP.Admin.Web\SP.Admin.Web.Models\bin\Debug\SP.Admin.Web.Models.pdb
+c:\users\david galvan\documents\visual studio 2015\Projects\SP.Admin.Web\SP.Admin.Web.Models\obj\Debug\SP.Admin.Web.Models.csprojResolveAssemblyReference.cache
+c:\users\david galvan\documents\visual studio 2015\Projects\SP.Admin.Web\SP.Admin.Web.Models\obj\Debug\SP.Admin.Web.Models.dll
+c:\users\david galvan\documents\visual studio 2015\Projects\SP.Admin.Web\SP.Admin.Web.Models\obj\Debug\SP.Admin.Web.Models.pdb
